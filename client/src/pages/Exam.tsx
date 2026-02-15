@@ -96,33 +96,48 @@ export default function Exam() {
                     <LayoutGrid className="w-4 h-4" />
                     Question Navigator
                   </h3>
-                  <span className="text-xs text-muted-foreground">{Object.keys(answers).length}/{totalQuestions} Answered</span>
+                  <span className="text-xs text-muted-foreground">{Object.keys(answers).length}/40 Answered</span>
                 </div>
                 
-                <div className="grid grid-cols-5 gap-2">
-                  {questions.map((q, idx) => {
-                    const isAnswered = answers[q.id] !== undefined;
-                    const isFlagged = flaggedQuestions.has(q.id);
-                    const isCurrent = idx === currentQuestionIndex;
-                    
-                    return (
-                      <button
-                        key={q.id}
-                        onClick={() => setCurrentQuestionIndex(idx)}
-                        className={`
-                          h-10 w-10 rounded-md text-sm font-medium transition-all relative
-                          ${isCurrent ? 'ring-2 ring-primary ring-offset-2 z-10' : ''}
-                          ${isAnswered ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'bg-muted text-muted-foreground hover:bg-muted/80'}
-                          ${isFlagged ? 'ring-1 ring-orange-400' : ''}
-                        `}
-                      >
-                        {idx + 1}
-                        {isFlagged && (
-                          <div className="absolute -top-1 -right-1 w-3 h-3 bg-orange-500 rounded-full border-2 border-background" />
-                        )}
-                      </button>
-                    );
-                  })}
+                <div className="space-y-4">
+                  {[
+                    { name: "Unit 1: Fundamentals", range: [0, 8] },
+                    { name: "Unit 2: SDLC", range: [8, 14] },
+                    { name: "Unit 3: Static Testing", range: [14, 18] },
+                    { name: "Unit 4: Analysis & Design", range: [18, 29] },
+                    { name: "Unit 5: Management", range: [29, 38] },
+                    { name: "Unit 6: Tools", range: [38, 40] }
+                  ].map((unit, uIdx) => (
+                    <div key={uIdx} className="space-y-2">
+                      <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground/70">{unit.name}</p>
+                      <div className="grid grid-cols-5 gap-1.5">
+                        {questions.slice(unit.range[0], unit.range[1]).map((q, qIdx) => {
+                          const idx = unit.range[0] + qIdx;
+                          const isAnswered = answers[q.id] !== undefined;
+                          const isFlagged = flaggedQuestions.has(q.id);
+                          const isCurrent = idx === currentQuestionIndex;
+                          
+                          return (
+                            <button
+                              key={q.id}
+                              onClick={() => setCurrentQuestionIndex(idx)}
+                              className={`
+                                h-8 w-8 rounded text-xs font-medium transition-all relative
+                                ${isCurrent ? 'ring-2 ring-primary ring-offset-2 z-10' : ''}
+                                ${isAnswered ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground hover:bg-muted/80'}
+                                ${isFlagged ? 'ring-1 ring-orange-400' : ''}
+                              `}
+                            >
+                              {idx + 1}
+                              {isFlagged && (
+                                <div className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 bg-orange-500 rounded-full border-2 border-background" />
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  ))}
                 </div>
 
                 <div className="mt-6 space-y-2 text-xs text-muted-foreground">
