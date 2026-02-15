@@ -101,12 +101,12 @@ export default function Exam() {
                 
                 <div className="space-y-4">
                   {[
-                    { name: "Unit 1: Fundamentals", range: [0, 8] },
-                    { name: "Unit 2: SDLC", range: [8, 14] },
+                    { name: "Unit 1: Fundamentals of Testing", range: [0, 8] },
+                    { name: "Unit 2: Testing Throughout the S D L C", range: [8, 14] },
                     { name: "Unit 3: Static Testing", range: [14, 18] },
-                    { name: "Unit 4: Analysis & Design", range: [18, 29] },
-                    { name: "Unit 5: Management", range: [29, 38] },
-                    { name: "Unit 6: Tools", range: [38, 40] }
+                    { name: "Unit 4: Test Analysis and Design", range: [18, 29] },
+                    { name: "Unit 5: Managing the Test Activities", range: [29, 38] },
+                    { name: "Unit 6: Test Tools", range: [38, 40] }
                   ].map((unit, uIdx) => (
                     <div key={uIdx} className="space-y-2">
                       <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground/70">{unit.name}</p>

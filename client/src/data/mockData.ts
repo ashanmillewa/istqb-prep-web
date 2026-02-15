@@ -114,7 +114,7 @@ export const questions: Question[] = [
     category: "Fundamentals of Testing"
   },
 
-  // Unit 2: Testing Throughout the SDLC (9-14)
+  // Unit 2: Testing Throughout the S D L C (9-14)
   {
     id: 9,
     text: "In the V-model, which level of testing is usually the responsibility of the users?",
@@ -126,7 +126,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 3,
     explanation: "Acceptance testing is typically performed by customers, users, or other stakeholders to determine whether to accept the system.",
-    category: "Testing Throughout the SDLC"
+    category: "Testing Throughout the S D L C"
   },
   {
     id: 10,
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Iterative-incremental models like Agile involve developing the system in cycles (iterations).",
-    category: "Testing Throughout the SDLC"
+    category: "Testing Throughout the S D L C"
   },
   {
     id: 11,
@@ -152,7 +152,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Integration testing focuses on interactions between components or systems.",
-    category: "Testing Throughout the SDLC"
+    category: "Testing Throughout the S D L C"
   },
   {
     id: 12,
@@ -165,7 +165,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "Regression testing is triggered by changes to ensure that unchanged parts of the software still work.",
-    category: "Testing Throughout the SDLC"
+    category: "Testing Throughout the S D L C"
   },
   {
     id: 13,
@@ -178,7 +178,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "System testing verify the behavior of the whole system/product.",
-    category: "Testing Throughout the SDLC"
+    category: "Testing Throughout the S D L C"
   },
   {
     id: 14,
@@ -191,7 +191,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Performance testing is a type of non-functional testing.",
-    category: "Testing Throughout the SDLC"
+    category: "Testing Throughout the S D L C"
   },
 
   // Unit 3: Static Testing (15-18)
