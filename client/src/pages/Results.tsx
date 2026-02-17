@@ -1,18 +1,19 @@
-import { useEffect, useState } from "react";
-import { Link, useLocation } from "wouter";
+import { useEffect, useState, useMemo } from "react";
+import { Link, useLocation, useSearch } from "wouter";
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { CheckCircle, XCircle, AlertCircle, RotateCcw, Home as HomeIcon } from "lucide-react";
-import { Question } from "@/data/mockData";
+import { Question, samplePapers } from "@/data/mockData";
 
 interface ExamResult {
   score: number;
   total: number;
   answers: Record<number, number>;
   questions: Question[];
+  paperId?: string;
 }
 
 export default function Results() {
@@ -32,6 +33,7 @@ export default function Results() {
 
   const percentage = Math.round((results.score / results.total) * 100);
   const isPassed = percentage >= 65; // ISTQB Pass mark is 65%
+  const paperLink = results.paperId ? `/exam?paper=${results.paperId}` : '/exam';
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -85,7 +87,7 @@ export default function Results() {
                   : "Don't give up. The ISTQB exam requires precise understanding of terminology. Focus on the areas where you missed questions."}
               </p>
               <div className="flex gap-4">
-                <Link href="/exam">
+                <Link href={paperLink}>
                   <Button className="w-full">
                     <RotateCcw className="w-4 h-4 mr-2" />
                     Retake Exam

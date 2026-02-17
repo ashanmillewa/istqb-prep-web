@@ -1,11 +1,11 @@
-import { useState } from "react";
-import { useLocation } from "wouter";
+import { useState, useMemo } from "react";
+import { useLocation, useSearch } from "wouter";
 import { Navbar } from "@/components/Navbar";
 import { QuestionCard } from "@/components/QuestionCard";
 import { ExamTimer } from "@/components/ExamTimer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { questions } from "@/data/mockData";
+import { samplePapers } from "@/data/mockData";
 import { ChevronLeft, ChevronRight, Flag, LayoutGrid } from "lucide-react";
 import {
   AlertDialog,
@@ -21,6 +21,19 @@ import {
 
 export default function Exam() {
   const [_, setLocation] = useLocation();
+  const searchString = useSearch();
+  
+  const paperId = useMemo(() => {
+    const params = new URLSearchParams(searchString);
+    return params.get("paper") || "paper-a";
+  }, [searchString]);
+
+  const currentPaper = useMemo(() => {
+    return samplePapers.find(p => p.id === paperId) || samplePapers[0];
+  }, [paperId]);
+
+  const questions = currentPaper.questions;
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [flaggedQuestions, setFlaggedQuestions] = useState<Set<number>>(new Set());
@@ -73,7 +86,8 @@ export default function Exam() {
       score,
       total: totalQuestions,
       answers,
-      questions
+      questions,
+      paperId
     };
     
     localStorage.setItem('examResults', JSON.stringify(results));

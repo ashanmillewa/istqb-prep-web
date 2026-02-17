@@ -25,16 +25,18 @@ export default function Home() {
                 Professional-grade practice exams designed to simulate the real testing environment. 
                 Detailed explanations, performance tracking, and topic-focused analysis.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Link href="/exam">
-                  <Button size="lg" className="text-base px-8 h-12 shadow-lg shadow-primary/20">
-                    Start Practice Exam
+              <div className="grid sm:grid-cols-2 gap-4 justify-center lg:justify-start">
+                <Link href="/papers">
+                  <Button size="lg" className="w-full text-base px-8 h-12 shadow-lg shadow-primary/20">
+                    Browse Sample Papers
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
-                <Button variant="outline" size="lg" className="text-base px-8 h-12">
-                  View Syllabus
-                </Button>
+                <Link href="/exam?paper=paper-a">
+                  <Button variant="outline" size="lg" className="w-full text-base px-8 h-12">
+                    Quick Start (Paper A)
+                  </Button>
+                </Link>
               </div>
             </div>
             
