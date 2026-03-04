@@ -8,44 +8,148 @@ export const answersData: Record<string, AnswerData[]> = {
   "paper-a": [
     {
       questionId: 1,
-      correctAnswer: 1,
-      explanation: "A failure is an event in which a component or system does not perform a required function within specified limits. The system crashing is a failure. The others are errors or defects."
+      correctAnswer: 2,
+      explanation: "Testing reduces risk and builds confidence; it cannot prove absence of defects or failures."
     },
     {
       questionId: 2,
       correctAnswer: 0,
-      explanation: "Typical test objectives include finding defects, gaining confidence, providing information, and preventing defects. Fixing defects is a debugging/development activity."
+      explanation: "Early tester involvement across the SDLC improves defect detection and overall quality."
     },
     {
       questionId: 3,
-      correctAnswer: 1,
-      explanation: "Testing that does not involve the execution of the component or system being tested is static testing."
+      correctAnswer: 0,
+      explanation: "Unchanged tests may stop detecting defects over time, even when defects still exist."
     },
     {
       questionId: 4,
-      correctAnswer: 2,
-      explanation: "The principle of early testing states that testing activities should start as early as possible in the software development lifecycle to find defects sooner."
+      correctAnswer: 1,
+      explanation: "Test analysis focuses on deciding what should be tested."
     },
     {
       questionId: 5,
-      correctAnswer: 3,
-      explanation: "Debugging is a development activity, not a test objective."
+      correctAnswer: 1,
+      explanation: "The SDLC, level of risk, and regulatory requirements significantly influence the test approach."
     },
     {
       questionId: 6,
-      correctAnswer: 2,
-      explanation: "Independence helps testers see defects that developers might overlook due to cognitive bias."
+      correctAnswer: 1,
+      explanation: "Testing finds defects and failures; debugging is used to locate and fix the causes."
     },
     {
       questionId: 7,
       correctAnswer: 1,
-      explanation: "Principle 2 states that testing everything (all combinations of inputs and preconditions) is not feasible except for trivial cases."
+      explanation: "The number of possible combinations is too large to test exhaustively."
     },
     {
       questionId: 8,
       correctAnswer: 2,
-      explanation: "Static testing finds defects before code execution, making them cheaper to fix."
+      explanation: "A failure is the observed incorrect behavior of the system during execution."
+    },
+    {
+      questionId: 9,
+      correctAnswer: 2,
+      explanation: "ATDD uses acceptance criteria to create tests that guide development."
+    },
+    {
+      questionId: 10,
+      correctAnswer: 2,
+      explanation: "Performance efficiency testing is not typically a shift-left activity."
+    },
+    {
+      questionId: 11,
+      correctAnswer: 2,
+      explanation: "Retrospectives enable analysis of process issues and support continuous improvement."
+    },
+    {
+      questionId: 12,
+      correctAnswer: 3,
+      explanation: "Different failure types align best with specific test levels based on scope."
+    },
+    {
+      questionId: 13,
+      correctAnswer: 1,
+      explanation: "Regression testing ensures changes have not negatively impacted existing functionality."
+    },
+    {
+      questionId: 14,
+      correctAnswer: 0,
+      explanation: "Confirmation testing verifies that a specific defect has been successfully fixed."
+    },
+    {
+      questionId: 15,
+      correctAnswer: 2,
+      explanation: "Human errors can introduce defects in code, which may later cause failures during execution."
+    },
+    {
+      questionId: 16,
+      correctAnswer: 1,
+      explanation: "Static testing (e.g., reviews) can identify defects without executing the code."
+    },
+    {
+      questionId: 17,
+      correctAnswer: 2,
+      explanation: "Reviews can identify missing or unclear requirements early."
+    },
+    {
+      questionId: 18,
+      correctAnswer: 1,
+      explanation: "Walkthroughs are informal reviews aimed at understanding and learning."
+    },
+    {
+      questionId: 19,
+      correctAnswer: 1,
+      explanation: "The moderator facilitates the review and ensures adherence to the process."
+    },
+    {
+      questionId: 20,
+      correctAnswer: 1,
+      explanation: "Early feedback helps uncover misunderstandings before they become costly defects."
+    },
+    {
+      questionId: 21,
+      correctAnswer: 2,
+      explanation: "System testing evaluates the full system against specified requirements."
+    },
+    {
+      questionId: 22,
+      correctAnswer: 1,
+      explanation: "Acceptance testing ensures the system meets user and business requirements."
+    },
+    {
+      questionId: 23,
+      correctAnswer: 3,
+      explanation: "Functional testing verifies system functions against requirements."
+    },
+    {
+      questionId: 24,
+      correctAnswer: 2,
+      explanation: "Non-functional testing focuses on quality attributes beyond functionality."
+    },
+    {
+      questionId: 25,
+      correctAnswer: 2,
+      explanation: "Black-box techniques derive tests from requirements, not code structure."
+    },
+    {
+      questionId: 26,
+      correctAnswer: 1,
+      explanation: "White-box testing uses knowledge of the internal code structure."
+    },
+    {
+      questionId: 27,
+      correctAnswer: 2,
+      explanation: "Boundary value analysis focuses on values at the edges of partitions."
+    },
+    {
+      questionId: 28,
+      correctAnswer: 1,
+      explanation: "Exploratory testing combines learning, design, and execution."
+    },
+    {
+      questionId: 29,
+      correctAnswer: 1,
+      explanation: "Test automation supports testing activities using tools."
     }
-    // ... more answers for other papers can be added here
   ]
 };
