@@ -154,7 +154,7 @@ export const answersData: Record<string, AnswerData[]> = {
     {
       questionId: 30,
       correctAnswer: 2,
-      explanation: "Exit criteria define when testing can stop; reaching target defect density and having regression tests automated are valid exit criteria. (Note: Multi-select not fully supported in current UI, but c is correct)."
+      explanation: "Exit criteria define when testing can stop; reaching target defect density and having regression tests automated are valid exit criteria."
     },
     {
       questionId: 31,
@@ -206,5 +206,47 @@ export const answersData: Record<string, AnswerData[]> = {
       correctAnswer: 2,
       explanation: "Automation improves the consistency of test execution by following the same steps every time."
     }
+  ],
+  "paper-b": [
+    { questionId: 41, correctAnswer: 3, explanation: "Reviews increase the quality of requirements specifications and lead to fewer changes." },
+    { questionId: 42, correctAnswer: 1, explanation: "Testing is performed as part of QC (Quality Control)." },
+    { questionId: 43, correctAnswer: 3, explanation: "Using equivalence partitioning and boundary value analysis helps reduce the infinite test space." },
+    { questionId: 44, correctAnswer: 0, explanation: "Test design involves working with test data requirements, test conditions, etc." },
+    { questionId: 45, correctAnswer: 2, explanation: "The experience of the test team significantly impacts how testing is performed." },
+    { questionId: 46, correctAnswer: 1, explanation: "Traceability between user requirements and test results provides a means of measuring coverage." },
+    { questionId: 47, correctAnswer: 1, explanation: "Generic skills like domain knowledge (e.g., former pilot) help understand acceptance criteria." },
+    { questionId: 48, correctAnswer: 3, explanation: "Whole-team approach generates team synergy that benefits the entire project." },
+    { questionId: 49, correctAnswer: 1, explanation: "In sequential models, dynamic testing is typically restricted to later stages." },
+    { questionId: 50, correctAnswer: 1, explanation: "Testers should review work products as soon as drafts are available (early testing)." },
+    { questionId: 51, correctAnswer: 0, explanation: "Test-Driven Development (TDD) is a test-first approach." },
+    { questionId: 52, correctAnswer: 1, explanation: "DevOps uses automated pipelines for frequent updates and releases." },
+    { questionId: 53, correctAnswer: 0, explanation: "Security testing by an independent team is often part of system testing." },
+    { questionId: 54, correctAnswer: 3, explanation: "Regression testing checks for side effects in unchanged code." },
+    { questionId: 55, correctAnswer: 1, explanation: "Unreachable code can be found by static analysis but not by executing the code." },
+    { questionId: 56, correctAnswer: 2, explanation: "Early feedback facilitates early communication of potential quality issues." },
+    { questionId: 57, correctAnswer: 3, explanation: "1C (Planning selects exit criteria), 2B (Initiation gives access), 3A (Individual review identifies anomalies), 4D (Communication and analysis discusses anomalies)." },
+    { questionId: 58, correctAnswer: 2, explanation: "1B (Scribe records), 2D (Review leader has overall responsibility), 3A (Facilitator ensures meeting runs well), 4C (Manager decides what to review)." },
+    { questionId: 59, correctAnswer: 3, explanation: "Decision table testing (black-box) is independent of internal code structure, unlike branch testing." },
+    { questionId: 60, correctAnswer: 0, explanation: "Values 19, 20, 30 cover various discount thresholds." },
+    { questionId: 61, correctAnswer: 3, explanation: "3-value BVA includes values just outside, on the boundary, and just inside." },
+    { questionId: 62, correctAnswer: 1, explanation: "Calculated based on the rules covered by the provided test cases." },
+    { questionId: 63, correctAnswer: 2, explanation: "Sequence Add, Add, Add, Remove, Remove covers the most valid state transitions." },
+    { questionId: 64, correctAnswer: 1, explanation: "Since 40% and 65% overlap significantly, at least some statements must be shared." },
+    { questionId: 65, correctAnswer: 2, explanation: "X represents the number of branches exercised." },
+    { questionId: 66, correctAnswer: 0, explanation: "Limited time for formal design is a prime reason for exploratory testing." },
+    { questionId: 67, correctAnswer: 3, explanation: "Checklists focus on user-understandable error messages and other verifiable items." },
+    { questionId: 68, correctAnswer: 1, explanation: "Given/When/Then is the scenario-oriented format." },
+    { questionId: 69, correctAnswer: 3, explanation: "User registration is a different story than viewing previous orders." },
+    { questionId: 70, correctAnswer: 0, explanation: "Static analysis passing is a good entry criterion for merging code." },
+    { questionId: 71, correctAnswer: 1, explanation: "Calculated based on historical ratios." },
+    { questionId: 72, correctAnswer: 1, explanation: "Based on dependencies and priorities provided." },
+    { questionId: 73, correctAnswer: 3, explanation: "Component integration testing is technology facing and supports the team." },
+    { questionId: 74, correctAnswer: 2, explanation: "1B (Response -> Performance), 2A (Preferences -> Acceptance), 3D (Flood -> Transfer), 4C (Reports -> BVA)." },
+    { questionId: 75, correctAnswer: 0, explanation: "Mean time to failure is a direct measure of product quality (reliability)." },
+    { questionId: 76, correctAnswer: 0, explanation: "Face-to-face is least effective for teams separated by an ocean." },
+    { questionId: 77, correctAnswer: 0, explanation: "CM tools retrieve the correct environment versions for testing." },
+    { questionId: 78, correctAnswer: 1, explanation: "The core issue identified was the failure to handle duplicate inputs." },
+    { questionId: 79, correctAnswer: 2, explanation: "1C (DevOps tracking), 2D (Collaboration), 3B (Scalability/VMs), 4A (Static/Reviews)." },
+    { questionId: 80, correctAnswer: 2, explanation: "The primary benefit of automation is reducing the manual execution time." }
   ]
 };

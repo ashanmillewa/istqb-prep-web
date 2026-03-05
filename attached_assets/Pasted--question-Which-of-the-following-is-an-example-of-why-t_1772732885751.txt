@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Which of the following is an example of why testing is necessary?",
+    "answer_a": "Dynamic testing increases quality by causing test objects to fail in ways that could never be",
+    "answer_b": "Static testing is used by developers to identify failures in their code earlier than can be",
+    "answer_c": "Static analysis provides evidence to customers that the elements of the system that provide",
+    "answer_d": "Reviews increase the quality of requirements specifications and lead to fewer changes",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following statements about quality assurance (QA) and/or quality control (QC) is\ncorrect?",
+    "answer_a": "QA is performed as part of testing",
+    "answer_b": "Testing is performed as part of QC",
+    "answer_c": "Testing is another term for QC",
+    "answer_d": "Testing is performed as part of QA",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "One of the \u2018principles of testing\u2019 states that exhaustive testing is impossible. Which of the following\nis an example of addressing this principle in practice?",
+    "answer_a": "Creating test cases that cover every possible specified output",
+    "answer_b": "Documenting all possible test input variations and prioritizing these based on importance",
+    "answer_c": "Starting testing as early as possible with reviews and other static testing approaches",
+    "answer_d": "Using equivalence partitioning and boundary value analysis to generate test cases",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "Which test activity involves working with test data requirements, test conditions, test environment\nrequirements and test cases?",
+    "answer_a": "Test design",
+    "answer_b": "Test execution",
+    "answer_c": "Test analysis",
+    "answer_d": "Test implementation",
+    "correct_answer": "a",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is MOST likely to impact how testing is performed for a given test object?",
+    "answer_a": "The average level of experience of the organization\u2019s marketing team",
+    "answer_b": "The knowledge of users that a new system is being developed for them",
+    "answer_c": "The number of years\u2019 experience of the members of the test team",
+    "answer_d": "The end user\u2019s organizational structure for a commercial music streaming application",
+    "correct_answer": "c",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following statements is a CORRECT example of the value of traceability?",
+    "answer_a": "Traceability between the mitigated risks and test cases that passed provides a means of",
+    "answer_b": "Traceability between user requirements and test results provides a means of measuring",
+    "answer_c": "Traceability between testers and test cases that failed provides a means of determining the",
+    "answer_d": "Traceability between the identified risks and written test conditions provides a means of",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is MOST likely to be an example of a tester using a generic skill when\ntesting?",
+    "answer_a": "The tester\u2019s deep knowledge of a variety of computer games meant that they got on well",
+    "answer_b": "The tester was a former pilot and was better able to understand the acceptance criteria for",
+    "answer_c": "The tester previously worked as a programmer and used their skills in this area to better",
+    "answer_d": "The tester was very careful not to make mistakes when they methodically generated test",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is an advantage of the whole-team approach?",
+    "answer_a": "It allows team members to take on any role at any time",
+    "answer_b": "It only needs a single team to support the complete development project",
+    "answer_c": "It embeds business representatives alongside developers in the same team",
+    "answer_d": "It generates a team synergy that benefits the entire project",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following statements about the chosen software development lifecycle is CORRECT?",
+    "answer_a": "If agile software development is used, automation of system tests replaces the need for",
+    "answer_b": "If a sequential development model is used, then the dynamic testing is typically restricted to",
+    "answer_c": "If an iterative development model is used, then component testing is typically performed",
+    "answer_d": "If an incremental development model is used, then static testing is done in early increments",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is a good testing practice that applies to all software development lifecycles?",
+    "answer_a": "Testers should review work products as part of the next development phase",
+    "answer_b": "Testers should review work products as soon as drafts are available",
+    "answer_c": "Testers should review work products before test analysis and test design begin",
+    "answer_d": "Testers should review work products immediately after they are published",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is an example of a test-first approach to development?",
+    "answer_a": "Test-Driven Development",
+    "answer_b": "Coverage-Driven Development",
+    "answer_c": "Quality-Driven Development",
+    "answer_d": "Feature-Driven Development",
+    "correct_answer": "a",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following statements about DevOps is CORRECT?",
+    "answer_a": "To speed up releases, continuous integration is used to encourage developers to submit",
+    "answer_b": "To be able to update and release systems on a more frequent basis, many automated",
+    "answer_c": "To treat both developers and operations equally, the testers will allocate more effort to",
+    "answer_d": "To create increased synergy between testers, developers and operations, the testing must",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is MOST likely to be performed as part of system testing?",
+    "answer_a": "Security testing of a credit management system by an independent test team",
+    "answer_b": "Testing the interface of a currency exchange system with an external banking system",
+    "answer_c": "Beta testing of a remote learning system by courseware developers",
+    "answer_d": "Testing interactions between the user interface and database of a human resources system",
+    "correct_answer": "a",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following statements is CORRECT?",
+    "answer_a": "Regression tests increase in number as the project progresses, whereas the number of",
+    "answer_b": "Regression tests are created and run when the test object is fixed, whereas confirmation",
+    "answer_c": "Regression testing is concerned with checking that the operational environment remains",
+    "answer_d": "Regression testing is concerned with adverse effects in unchanged code, whereas",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is an example of a defect that can be found by static testing but NOT by\ndynamic testing?",
+    "answer_a": "Lack of usability provided through the user interface",
+    "answer_b": "Code with no path that reaches it",
+    "answer_c": "Poor response times for most of the expected users",
+    "answer_d": "Required features that are not implemented in the code",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is a benefit of early and frequent stakeholder feedback?",
+    "answer_a": "Managers are aware of which developers are less productive",
+    "answer_b": "It allows project managers to prioritize their stakeholder interactions",
+    "answer_c": "It facilitates early communication of potential quality issues",
+    "answer_d": "End users better understand why the delivery of the work product is delayed",
+    "correct_answer": "c",
+    "clarification": ""
+  },
+  {
+    "question": "Given the following task descriptions:\n1. The quality characteristics to be evaluated and the exit criteria are selected\n2. Everyone has access to the work product\n3. Anomalies are identified in the work product\n4. Anomalies are discussed\nAnd the following review activities\nA. Individual review\nB. Review initiation\nC. Planning\nD. Communication and analysis\nWhich of the following BEST matches the task descriptions and activities?",
+    "answer_a": "1B, 2C, 3D, 4A",
+    "answer_b": "1B, 2D, 3C, 4A",
+    "answer_c": "1C, 2A, 3B, 4D",
+    "answer_d": "1C, 2B, 3A, 4D",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "Given the following roles in reviews:\n1. Scribe\n2. Review leader\n3. Facilitator\n4. Manager\nAnd the following responsibilities in reviews:\nA. Ensures the effective running of review meetings and the setting up a safe review\nenvironment\nB. Records review information, such as decisions and new anomalies found during the\nreview meeting\nC. Decides what is to be reviewed and provides resources, such as staff and time for the\nreview\nD. Takes overall responsibility for the review such as organizing when and where the\nreview will take place\nWhich of the following BEST matches the roles and responsibilities?",
+    "answer_a": "1A, 2B, 3D, 4C",
+    "answer_b": "1A, 2C, 3B, 4D",
+    "answer_c": "1B, 2D, 3A, 4C",
+    "answer_d": "1B, 2D, 3C, 4A",
+    "correct_answer": "c",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following statements BEST describes the difference between decision table testing\nand branch testing?",
+    "answer_a": "In decision table testing, the test cases are derived from the decision statements in the",
+    "answer_b": "In decision table testing, the test cases are derived from the specification that describes the",
+    "answer_c": "In decision table testing, the test cases are derived from knowledge of the control flow of",
+    "answer_d": "In decision table testing, the test cases are independent of how the software is",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "Customers of the TestWash car wash chain have cards with a record of the number of washes\nthey have bought so far. The initial value is 0. After entering the car wash, the system increases\nthe number on the card by one. This value represents the number of the current wash. Based on\nthis number the system decides what discount the customer is entitled to.\nFor every tenth wash the system gives a 10% discount, and for every twentieth wash, the system\ngives a further 40% discount (i.e., a 50% discount in total).\nWhich of the following sets of input data (understood as the numbers of the current wash) achieves\nthe highest equivalence partition coverage?",
+    "answer_a": "19, 20, 30",
+    "answer_b": "11, 12, 20",
+    "answer_c": "1, 10, 50",
+    "answer_d": "10, 29, 30, 31",
+    "correct_answer": "a",
+    "clarification": ""
+  },
+  {
+    "question": "You are testing a form that verifies the correctness of the length of the password given as input.\nThe form accepts a password with the correct length and rejects a password that is too short or too\nlong. The password length is correct if it has between 6 and 12 characters inclusive. Otherwise, it\nis considered incorrect.\nAt first, the form is empty (password length = 0). You apply boundary value analysis to the\n\u201cpassword length\u201d variable.\nYour set of test cases achieves 100% 2-value boundary value coverage. The team decided that\ndue to the high risk of this component, test cases should be added to ensure 100% 3-value\nboundary value coverage.\nWhich additional password lengths should be tested to achieve this?",
+    "answer_a": "4, 5, 13, 14",
+    "answer_b": "7, 11",
+    "answer_c": "1, 5, 13",
+    "answer_d": "1, 4, 7, 11, 14",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "The following decision table contains the rules for determining the risk of atherosclerosis.\nRule 1 Rule 2 Rule 3 Rule 4 Rule 5\nConditions\nCholesterol (mg/dl) 125 \u2013 125 \u2013\n\u2264124 \u2264 124 \u2265 201\n200 200\nBlood pressure (mm\n\u2264 140 > 140 \u2264 140 > 140 \u2013\nHg)\nAction\nRisk level very low low medium high very high\nYou designed the test cases with the following input data:\nTC1: Cholesterol = 125 mg/dl Blood pressure = 141 mm Hg\nTC2: Cholesterol = 200 mg/dl Blood pressure = 201 mm Hg\nTC3: Cholesterol = 124 mg/dl Blood pressure = 201 mm Hg\nTC4: Cholesterol = 109 mg/dl Blood pressure = 200 mm Hg\nTC5: Cholesterol = 201 mg/dl Blood pressure = 140 mm Hg\nWhat is the decision table coverage achieved by these test cases?",
+    "answer_a": "40%",
+    "answer_b": "60%",
+    "answer_c": "80%",
+    "answer_d": "100%",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "A storage system can store up to three elements and is modeled by the following state transition\ndiagram. The variable N represents the number of currently stored elements.\nWhich of the following test cases, represented as sequences of events, achieves the highest level\nof valid transitions coverage?",
+    "answer_a": "Add, Remove, Add, Add, Add",
+    "answer_b": "Add, Add, Add, Add, Remove, Remove",
+    "answer_c": "Add, Add, Add, Remove, Remove",
+    "answer_d": "Add, Add, Add, Remove, Add",
+    "correct_answer": "c",
+    "clarification": ""
+  },
+  {
+    "question": "You run two test cases, T1 and T2, on the same code. Test T1 achieved 40% statement coverage\nand test T2 achieved 65% statement coverage.\nWhich of the following sentences must be necessarily true?",
+    "answer_a": "The test suite composed of tests T1 and T2 achieves 105% statement coverage",
+    "answer_b": "There exists at least one statement that must have been executed by both T1 and T2",
+    "answer_c": "At least 5% of the statements in the code that was tested are non-executable",
+    "answer_d": "The test suite composed of tests T1 and T2 achieves full branch coverage",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "Let the branch coverage metric be defined as BCov = (X / Y) * 100%.\nWhat do X and Y represent in this formula?",
+    "answer_a": "X = number of decision outcomes exercised by the test cases",
+    "answer_b": "X = number of conditional branches exercised by the test cases",
+    "answer_c": "X = number of branches exercised by the test cases",
+    "answer_d": "X = number of conditional branches exercised by the test cases",
+    "correct_answer": "c",
+    "clarification": ""
+  },
+  {
+    "question": "Which TWO of the following statements provide the BEST rationale for using exploratory testing?",
+    "answer_a": "Testers have not been allocated enough time for test design and test execution",
+    "answer_b": "The existing test strategy requires that testers use formal, black-box test techniques",
+    "answer_c": "The specification is written in a formal language that can be processed by a tool",
+    "answer_d": "Testers are the members of an agile team and have good programming skills",
+    "correct_answer": "a,e",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following BEST fits as an element of the checklist used in checklist-based testing?",
+    "answer_a": "\u201cThe developer made an error when implementing the code\u201d",
+    "answer_b": "\u201cThe achieved statement coverage exceeds 85%\u201d",
+    "answer_c": "\u201cThe program works correctly regarding functional and non-functional requirements\u201d",
+    "answer_d": "\u201cThe error messages are written in language that the user can understand\u201d",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "Consider the following acceptance criteria for a user story written from the perspective of an online\nstore owner.\nGiven that the user is logged in and on the homepage,\nWhen the user clicks on the \"Add Item\" button,\nThen the \"Create Item\" form should appear,\nAnd the user should be able to input a name and price for the new item.\nIn what format is this acceptance criteria written?",
+    "answer_a": "Rule-oriented",
+    "answer_b": "Scenario-oriented",
+    "answer_c": "Product-oriented",
+    "answer_d": "Process-oriented",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "Your team analyzes the following user story in order to define the acceptance criteria:\nAs a registered customer, I want to be able to view my previous orders on the\ncompany's website, so that I can keep track of my purchases.\nWhich of the following test cases will NOT be relevant for this user story?",
+    "answer_a": "Input: the customer logs into their account on the website and clicks the \u201csee order history\u201d",
+    "answer_b": "Input: the customer clicks on an order from the order list",
+    "answer_c": "Input: the customer clicks \u201cSort ascending\u201d button on the order history screen",
+    "answer_d": "Input: an unregistered customer registers as a new customer with a valid e-mail address",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "Your team follows the process that uses the DevOps delivery pipeline. The first three steps of this\nprocess are:\n(1) Code development\n(2) Submit code into a version control system and merge it into the \u201ctest\u201d branch\n(3) Perform component testing for the submitted code\nWhich of the following is BEST suited to be the entry criterion for step (2) of this pipeline?",
+    "answer_a": "Static analysis returns no high severity warnings for the submitted code",
+    "answer_b": "System version control reports no conflicts when merging code into the \u201ctest\u201d branch",
+    "answer_c": "Component tests are compiled and ready to be executed",
+    "answer_d": "Statement coverage is at least 80%",
+    "correct_answer": "a",
+    "clarification": ""
+  },
+  {
+    "question": "You want to estimate the test effort for the new project using estimation based on ratios. You\ncalculate the test-to-development effort ratio using averaged data for both development effort and\ntest effort from four historical projects similar to the new one. The table shows this historical data.\nProject Development effort Test effort\n($) ($)\nP1 800,000 40,000\nP2 1,200,000 130,000\nP3 600,000 70,000\nP4 1,000,000 120,000\nThe estimated development effort for the new project is $800,000. What is your estimate of the test\neffort in this project?",
+    "answer_a": "$40,000",
+    "answer_b": "$80,000",
+    "answer_c": "$81,250",
+    "answer_d": "$82,500",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "You are testing a web application that allows users to SEARCH for products, VIEW product details,\nADD products to a shopping cart, and place an ORDER.\nYou have prepared the following seven test cases, all of which you want to execute. The tests\nshould be executed in the best order, based on test priority.\nTest Priority (1 = higher priority)\nTC1 SEARCH for product A 4\nTC2 SEARCH for product B 4\nTC3 VIEW product A details 3\nTC4 VIEW product B details 2\nTC5 ADD product A to a shopping cart 3\nTC6 ADD product B to a shopping cart 1\nTC7 place an ORDER 5\nYou also identified the following logical dependencies between test cases:\n\u2022 SEARCH functionality must be tested before VIEW functionality can be tested.\n\u2022 VIEW functionality must be tested before ADD functionality.\n\u2022 ADD functionality must be tested before ORDER functionality.\nWhich test case should be executed as the fourth one?",
+    "answer_a": "TC3",
+    "answer_b": "TC1",
+    "answer_c": "TC7",
+    "answer_d": "TC2",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "According to the testing quadrants model, which of the following falls into quadrant Q1 (\u201ctechnology\nfacing\u201d and \u201csupport the team\u201d)?",
+    "answer_a": "Usability testing",
+    "answer_b": "Functional testing",
+    "answer_c": "User acceptance testing",
+    "answer_d": "Component integration testing",
+    "correct_answer": "d",
+    "clarification": ""
+  },
+  {
+    "question": "Given the following risks:\n1. Ineffective loop implementation causes long system responses\n2. Consumers change their preferences\n3. Flooding of the server room\n4. Patients above a certain age receive inaccurate reports\nAnd the following mitigation activities:\nA. Risk acceptance\nB. Testing for performance efficiency\nC. Using boundary value analysis as the test technique\nD. Risk transfer\nWhich of the following BEST matches the risks with the mitigation activities?",
+    "answer_a": "1C, 2D, 3A, 4B",
+    "answer_b": "1B, 2D, 3A, 4C",
+    "answer_c": "1B, 2A, 3D, 4C",
+    "answer_d": "1C, 2A, 3D, 4B",
+    "correct_answer": "c",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is a product quality metric?",
+    "answer_a": "Mean time to failure",
+    "answer_b": "Number of defects found",
+    "answer_c": "Requirements coverage",
+    "answer_d": "Defect detection percentage",
+    "correct_answer": "a",
+    "clarification": ""
+  },
+  {
+    "question": "You are a member of a test team located in North America, developing a product for a client\nlocated in Europe. The team is agile and follows the DevOps approach and uses a continuous\nintegration/continuous delivery pipeline.\nWhich of the following is the LEAST effective way to communicate test progress to the customer?",
+    "answer_a": "Face-to-face",
+    "answer_b": "Dashboards",
+    "answer_c": "Email",
+    "answer_d": "Video conferencing",
+    "correct_answer": "a",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following BEST describes an example of how configuration management (CM)\nsupports testing?",
+    "answer_a": "Having the version number of the environment, the CM tool can retrieve the version",
+    "answer_b": "Having a record of the values of the inputs, the CM tool can execute the test cases for",
+    "answer_c": "Having data about the date of purchase of a software license, the CM tool automatically",
+    "answer_d": "Having the version number of the test case, the CM tool can automatically generate test",
+    "correct_answer": "a",
+    "clarification": ""
+  },
+  {
+    "question": "You are testing a sort function that gets a set of numbers as input and returns the same set of\nnumbers sorted in ascending order. The log from the test execution looks as follows.\nEnvironment configuration: sort function build 2.002.2182, test case set: TCS-3, # of TCs: 5\nTest run ID: 736\nStart 12:43:21.003\n12:43:21.003 Execution of TC1. Input: 3. Output: 3. Result: passed\n12:43:21.003 Execution of TC2. Input: 3 11 6 5. Output: 3 5 6 11. Result: passed\n12:43:21.004 Execution of TC3. Input: 8 7 3 7 1. Output: 1 3 7 8. Result: failed\n12:43:21.005 Execution of TC4. Input: -2 -2 -2 -3 -3. Output: -3 -2. Result: failed\n12:43:21.005 Execution of TC5. Input: 0 -2 0 3 4 4. Output: -2 0 3 4. Result: failed\nEnd 12:43:21.005\nTotal time of test cycle: 0:00:00.002\nWhich of the following provides the BEST description of the failure that can be used in a defect\nreport?",
+    "answer_a": "The system fails to sort several sets of numbers. Reference: TC3, TC4, TC5.",
+    "answer_b": "The system seems to disregard duplicates while sorting. Reference: TC3, TC4, TC5.",
+    "answer_c": "The system fails to sort negative numbers. Reference: TC4, TC5.",
+    "answer_d": "TC3, TC4 and TC5 have defects (duplicate input data) and should be corrected.",
+    "correct_answer": "b",
+    "clarification": ""
+  },
+  {
+    "question": "Given the following descriptions:\n1. Support workflow tracking\n2. Facilitate communication\n3. Virtual machines\n4. Support reviews\nAnd the following test tool categories:\nA. Static testing tools\nB. Tools supporting scalability and deployment standardization\nC. DevOps tools\nD. Collaboration tools\nWhich of the following BEST matches the descriptions and categories?",
+    "answer_a": "1A, 2B, 3C, 4D",
+    "answer_b": "1B, 2D, 3C, 4A",
+    "answer_c": "1C, 2D, 3B, 4A",
+    "answer_d": "1D, 2C, 3A, 4B",
+    "correct_answer": "c",
+    "clarification": ""
+  },
+  {
+    "question": "Which of the following is MOST likely to be a benefit of test automation?",
+    "answer_a": "It provides coverage measures that are too complicated for humans to derive",
+    "answer_b": "It shares responsibility for the testing with the tool vendor",
+    "answer_c": "It removes the need for critical thinking when analyzing test results",
+    "answer_d": "It generates test cases from an analysis of the program code",
+    "correct_answer": "a",
+    "clarification": ""
+  }
+]
