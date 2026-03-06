@@ -1,0 +1,75 @@
+1. What is ISTQB?
+
+ISTQB stands for International Software Testing Qualifications Board. It is a globally recognized organization that provides standardized certifications for software testing professionals.
+
+The main goal of ISTQB is to improve the quality of software testing worldwide by defining common terminology, best practices, and testing knowledge frameworks. ISTQB certifications help testers understand structured testing methods and industry standards.
+
+ISTQB certifications are accepted internationally and are widely used by companies to evaluate the knowledge and skills of software testers.
+
+2. What is ISTQB Certification?
+
+ISTQB certification is a professional certification program designed for individuals who want to demonstrate their knowledge and skills in software testing.
+
+The certification validates a tester’s understanding of:
+
+Software testing principles
+
+Testing techniques
+
+Test management
+
+Test design
+
+Quality assurance practices
+
+ISTQB certifications are divided into different levels:
+
+Foundation Level (CTFL) – Entry-level certification for beginners in software testing.
+
+Advanced Level (CTAL) – For experienced testers who want deeper knowledge.
+
+Expert Level (CTEL) – For professionals with extensive testing experience.
+
+The Foundation Level is the most popular starting point for people entering the software testing field.
+
+3. Benefits of ISTQB Certification
+
+Obtaining an ISTQB certification offers several advantages for software testing professionals.
+
+Career Opportunities
+Many companies prefer or require ISTQB-certified testers when hiring QA engineers or software testers.
+
+Industry Recognition
+ISTQB is internationally recognized, which means your certification is valuable worldwide.
+
+Better Testing Knowledge
+The certification helps you understand testing concepts, techniques, and best practices used in the industry.
+
+Professional Growth
+It improves your credibility and can help you advance to senior testing roles such as Test Analyst, Test Manager, or QA Lead.
+
+Standardized Terminology
+ISTQB introduces a common testing vocabulary used by teams around the world.
+
+4. Format of the ISTQB Certification Exam
+
+The ISTQB Foundation Level exam follows a standardized format.
+
+Number of Questions
+The exam typically consists of 40 multiple-choice questions.
+
+Exam Duration
+Candidates have 60 minutes to complete the exam. Non-native English speakers may receive extra time.
+
+Passing Score
+To pass the exam, you must score at least 65%, which means answering 26 out of 40 questions correctly.
+
+Question Types
+
+Questions may include:
+
+Single correct answer
+
+Scenario-based questions
+
+Concept understanding questions
