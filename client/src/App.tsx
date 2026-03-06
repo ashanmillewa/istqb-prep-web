@@ -8,11 +8,13 @@ import Home from "@/pages/Home";
 import Exam from "@/pages/Exam";
 import Results from "@/pages/Results";
 import Papers from "@/pages/Papers";
+import AboutISTQB from "@/pages/AboutISTQB";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/about" component={AboutISTQB} />
       <Route path="/papers" component={Papers} />
       <Route path="/exam" component={Exam} />
       <Route path="/results" component={Results} />

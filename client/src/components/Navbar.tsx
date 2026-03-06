@@ -17,7 +17,12 @@ export function Navbar() {
               Home
             </a>
           </Link>
-          <Link href="/exam">
+          <Link href="/about">
+            <a className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+              What is ISTQB?
+            </a>
+          </Link>
+          <Link href="/papers">
             <a className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
               Practice Exam
             </a>
