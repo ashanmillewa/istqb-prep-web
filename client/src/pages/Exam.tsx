@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useLocation, useSearch } from "wouter";
 import { Navbar } from "@/components/Navbar";
 import { QuestionCard } from "@/components/QuestionCard";
@@ -38,6 +38,20 @@ export default function Exam() {
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [flaggedQuestions, setFlaggedQuestions] = useState<Set<number>>(new Set());
   const [isExamActive, setIsExamActive] = useState(true);
+
+  // Automatically scroll the mobile navigator when question changes
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const container = document.getElementById('mobile-nav-scroll');
+      const btn = document.getElementById(`nav-btn-${currentQuestionIndex}`);
+      if (container && btn) {
+        // Calculate exact scroll position to center the button in the container
+        const scrollLeft = btn.offsetLeft - (container.offsetWidth / 2) + (btn.offsetWidth / 2);
+        container.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+      }
+    }, 100);
+    return () => clearTimeout(timer);
+  }, [currentQuestionIndex]);
 
   const totalQuestions = questions.length;
   const currentQuestion = questions[currentQuestionIndex];
@@ -199,25 +213,47 @@ export default function Exam() {
             </div>
 
             {/* Mobile Navigator (Visible only on small screens) - TOP */}
-            <div className="mb-3 sm:mb-4 lg:hidden w-full flex flex-col items-center">
+            <div className="mb-3 sm:mb-4 lg:hidden w-full flex flex-col items-center relative">
                <p className="text-xs font-medium text-primary mb-2 bg-primary/10 px-3 py-1 rounded-full">
                  Question {currentQuestionIndex + 1} of {totalQuestions}
                </p>
-               <div className="flex overflow-x-auto gap-1 pb-1.5 -mx-3 px-3 sm:-mx-0 sm:px-0 sm:gap-1.5 sm:pb-0 w-full snap-x">
-                 {questions.map((q, idx) => (
-                    <button
-                      key={q.id}
-                      onClick={() => setCurrentQuestionIndex(idx)}
-                      className={`
-                        flex-shrink-0 h-8 w-8 rounded-md text-xs font-semibold border transition-all snap-center
-                        ${idx === currentQuestionIndex ? 'border-primary bg-primary text-primary-foreground ring-1 ring-primary ring-offset-1' : 'border-border/50 bg-background hover:border-primary/50'}
-                        ${answers[q.id] !== undefined && idx !== currentQuestionIndex ? 'bg-primary/10 border-primary/30' : ''}
-                      `}
-                      title={`Question ${idx + 1}`}
-                    >
-                      {idx + 1}
-                    </button>
-                 ))}
+               <div className="w-full relative">
+                 <div className="flex overflow-x-auto gap-1 pb-1.5 -mx-3 px-3 sm:-mx-0 sm:px-0 sm:gap-1.5 sm:pb-0 w-full scroll-smooth" id="mobile-nav-scroll">
+                   {questions.map((q, idx) => {
+                      // Calculate if this button should be scrolled into view
+                      // We don't do it automatically here to avoid fighting user scroll,
+                      // but we ensure the active one stands out visually
+                      return (
+                        <button
+                          key={q.id}
+                          id={`nav-btn-${idx}`}
+                          onClick={() => {
+                            setCurrentQuestionIndex(idx);
+                            // Ensure the clicked button comes into view smoothly
+                            document.getElementById(`nav-btn-${idx}`)?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                          }}
+                          className={`
+                            flex-shrink-0 h-8 w-8 rounded-md text-xs font-semibold border transition-all relative
+                            ${idx === currentQuestionIndex ? 'border-primary bg-primary text-primary-foreground ring-1 ring-primary ring-offset-1 scale-110 shadow-sm z-10' : 'border-border/50 bg-background hover:border-primary/50'}
+                            ${answers[q.id] !== undefined && idx !== currentQuestionIndex ? 'bg-primary/10 border-primary/30' : ''}
+                          `}
+                          title={`Question ${idx + 1}`}
+                        >
+                          {idx + 1}
+                          {/* Show the current question indicator specifically on this button */}
+                          {idx === currentQuestionIndex && (
+                            <span className="absolute -top-8 left-1/2 -translate-x-1/2 bg-primary text-white text-[10px] px-2 py-0.5 rounded whitespace-nowrap shadow-sm animate-in fade-in zoom-in after:content-[''] after:absolute after:top-full after:left-1/2 after:-translate-x-1/2 after:border-4 after:border-transparent after:border-t-primary">
+                              Current
+                            </span>
+                          )}
+                        </button>
+                      );
+                   })}
+                 </div>
+                 
+                 {/* Visual indicators to show there are more questions to scroll */}
+                 <div className="absolute top-0 right-0 bottom-0 w-8 bg-gradient-to-l from-background to-transparent pointer-events-none sm:hidden"></div>
+                 <div className="absolute top-0 left-0 bottom-0 w-8 bg-gradient-to-r from-background to-transparent pointer-events-none sm:hidden"></div>
                </div>
             </div>
 
