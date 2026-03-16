@@ -174,11 +174,11 @@ export default function Exam() {
           <main className="w-full min-w-0">
             {/* Header Info */}
             <div className="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-2.5 sm:gap-4 mb-3 sm:mb-4 md:mb-6">
-              <div className="text-xs sm:text-sm font-medium text-muted-foreground truncate">
+              <div className="hidden sm:block text-xs sm:text-sm font-medium text-muted-foreground truncate">
                 Question {currentQuestionIndex + 1}/{totalQuestions}
               </div>
               
-              <div className="flex items-center gap-2 sm:gap-3 justify-between sm:justify-end flex-shrink-0">
+              <div className="flex items-center gap-2 sm:gap-3 justify-between sm:justify-end flex-shrink-0 w-full sm:w-auto">
                 <ExamTimer 
                   durationSeconds={60 * 60}
                   onTimeUp={handleSubmit}
@@ -199,15 +199,17 @@ export default function Exam() {
             </div>
 
             {/* Mobile Navigator (Visible only on small screens) - TOP */}
-            <div className="mb-3 sm:mb-4 lg:hidden w-full">
-               <p className="text-xs text-muted-foreground mb-2 truncate">Jump to question</p>
-               <div className="flex overflow-x-auto gap-1 pb-1.5 -mx-3 px-3 sm:-mx-0 sm:px-0 sm:gap-1.5 sm:pb-0">
+            <div className="mb-3 sm:mb-4 lg:hidden w-full flex flex-col items-center">
+               <p className="text-xs font-medium text-primary mb-2 bg-primary/10 px-3 py-1 rounded-full">
+                 Question {currentQuestionIndex + 1} of {totalQuestions}
+               </p>
+               <div className="flex overflow-x-auto gap-1 pb-1.5 -mx-3 px-3 sm:-mx-0 sm:px-0 sm:gap-1.5 sm:pb-0 w-full snap-x">
                  {questions.map((q, idx) => (
                     <button
                       key={q.id}
                       onClick={() => setCurrentQuestionIndex(idx)}
                       className={`
-                        flex-shrink-0 h-8 w-8 rounded-md text-xs font-semibold border transition-all
+                        flex-shrink-0 h-8 w-8 rounded-md text-xs font-semibold border transition-all snap-center
                         ${idx === currentQuestionIndex ? 'border-primary bg-primary text-primary-foreground ring-1 ring-primary ring-offset-1' : 'border-border/50 bg-background hover:border-primary/50'}
                         ${answers[q.id] !== undefined && idx !== currentQuestionIndex ? 'bg-primary/10 border-primary/30' : ''}
                       `}
