@@ -1455,7 +1455,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 123,
-      text: "Test conditions are being used by testers to generate test cases and execute tests. Even though\nthe test conditions remain the same, the test cases are varied each time. Which of the following\n‘principles of testing’ is being addressed through the variation of test cases?",
+      text: "Test conditions are being used by testers to generate test cases and execute tests. Even though the test conditions remain the same, the test cases are varied each time. Which of the following ‘principles of testing’ is being addressed through the variation of test cases?",
       options: [
         "Tests wear out",
         "Absence-of-defects fallacy",
