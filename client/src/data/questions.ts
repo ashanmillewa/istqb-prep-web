@@ -1668,7 +1668,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "BY = 2000, CY = 2000"
       ],
       category: "Fundamentals of Testing",
-      correctAnswers: [0]
+      correctAnswers: [1, 4]
     },
     {
       id: 141,

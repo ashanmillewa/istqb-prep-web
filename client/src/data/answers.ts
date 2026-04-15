@@ -710,8 +710,8 @@ export const answersData: Record<string, AnswerData[]> = {
     },
     {
       questionId: 140,
-      correctAnswers: [0],
-      explanation: "Explanation not found."
+      correctAnswers: [1, 4],
+      explanation: "The existing test suite already covers 'no discount' (BY=1990, CY=2020, D=30) and 'error message' (BY=2030, CY=2029, D=-1). To achieve full valid equivalence partitioning coverage, the two missing partitions are: student discount (0 ≤ D < 18) and pensioner discount (D ≥ 65). a) BY=2001, CY=2065: D=64 → no discount (already covered). b) Is correct. BY=1900, CY=1965: D=65 → pensioner discount (missing partition). c) BY=1965, CY=1900: D=–65 → error message (already covered). d) BY=2011, CY=2029: D=18 → no discount (already covered). e) Is correct. BY=2000, CY=2000: D=0 → student discount (missing partition). Therefore b and e together complete the valid equivalence partitioning coverage."
     },
     {
       questionId: 141,
