@@ -1700,7 +1700,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 143,
-      text: "You are applying state transition testing to the hotel room reservation system modeled by the\nfollowing state transition table, with 4 states and 5 different events:\n\nEvents\nState                    Available            NotAvailable   ChangeRoom   Cancel   Pay\nS1: Requesting                            S2                 S3\nS2: Confirmed                                                                S1       S4      S4\nS3: Waiting list                          S2                                          S4\nS4: End\n\nAssuming all test cases start in the ‘Requesting’ state, which of the following test cases,\nrepresented as sequences of events, achieves the highest valid transitions coverage?",
+      text: "You are applying state transition testing to the hotel room reservation system modeled by the following state transition table, with 4 states and 5 different events: ||| Assuming all test cases start in the 'Requesting' state, which of the following test cases, represented as sequences of events, achieves the highest valid transitions coverage?",
       options: [
         "NotAvailable, Available, ChangeRoom, NotAvailable, Cancel",
         "Available, ChangeRoom, NotAvailable, Available, Pay",
@@ -1708,6 +1708,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "NotAvailable, Cancel, ChangeRoom, Available, Pay"
       ],
       category: "Fundamentals of Testing",
+      image: "/src/assets/images/paper-d-q23.png",
       correctAnswers: [1]
     },
     {
