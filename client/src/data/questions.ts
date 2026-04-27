@@ -1687,7 +1687,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 142,
-      text: "You are designing test cases based on the following decision table.\n\nR1      R2        R3          R4   R5      R6     R7\nC1: Age                0-18   19-65     19-65    >65      0-18   19-65   >65\nC2: Experience                      -      0-4        >4         -     -       -      -\nC3: Registered?                     NO      NO        NO          NO   YES    YES     YES\nCategory                 A      A          B          B     B      D      C\n\nSo far you have designed the following test cases:\n• TC1: 19-year-old, unregistered man with no experience;\nexpected result: category A\n• TC2: 65-year-old, unregistered woman with 5 years of experience;\nexpected result: category B\n• TC3: 66-year-old, registered man with no experience;\nexpected result: category C\n• TC4: 65-year-old, registered woman with 4 years of experience;\nexpected result: category D\nWhich of the following test cases, when added to the existing set of test cases, will increase the\ndecision table coverage?",
+      text: "You are designing test cases based on the following decision table. ||| Which of the following test cases, when added to the existing set of test cases, will increase the decision table coverage?",
       options: [
         "66-year-old, unregistered man with no experience; expected result: category B",
         "55-year-old, unregistered woman with 2 years of experience; expected result: category A",
@@ -1695,6 +1695,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "No additional test case can increase the already achieved decision table coverage"
       ],
       category: "Fundamentals of Testing",
+      image: "/src/assets/images/paper-d-q22.png",
       correctAnswers: [0]
     },
     {
