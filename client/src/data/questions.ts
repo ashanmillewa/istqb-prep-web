@@ -1713,7 +1713,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 144,
-      text: "Your test suite S for a program P achieves 100% statement coverage. It consists of three test\ncases, each of which achieves 50% statement coverage.\n\nWhich of the following statements is CORRECT?",
+      text: "Your test suite S for a program P achieves 100% statement coverage. It consists of three test cases, each of which achieves 50% statement coverage.\n\nWhich of the following statements is CORRECT?",
       options: [
         "Executing S will cause all possible failures in P",
         "S achieves 100% branch coverage for P",
@@ -1725,7 +1725,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 145,
-      text: "Why does white-box testing facilitate defect detection even when the software specification is\nvague, outdated or incomplete?",
+      text: "Why does white-box testing facilitate defect detection even when the software specification is vague, outdated or incomplete?",
       options: [
         "Test cases are designed based on the structure of the test object rather than the specification",
         "For each white-box test technique the coverage can be well-defined and easily measured",
@@ -1871,7 +1871,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 157,
-      text: "The user reported a software failure. An engineer from the support team asked the user for the\nsoftware version number where the failure was observed. Based on the version number, the team\nreassembled all the files that made up the release. This later allowed a developer to perform\nanalysis, find the defect, and fix it.\n\nWhich of the following enabled the above activity to be performed by the team?",
+      text: "The user reported a software failure. An engineer from the support team asked the user for the software version number where the failure was observed. Based on the version number, the team reassembled all the files that made up the release. This later allowed a developer to perform analysis, find the defect, and fix it.\n\nWhich of the following enabled the above activity to be performed by the team?",
       options: [
         "Risk management",
         "Test monitoring and control",
