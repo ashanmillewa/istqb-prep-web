@@ -1515,7 +1515,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 128,
-      text: "Given the following benefits and drawbacks of the independence of testing:\ni.   The testers work in a different location from the developers\nii.   Testers question the assumptions programmers make while writing code\niii.   A confrontational dynamic has been established between testers and developers\niv.    Developers have convinced themselves that testers are mostly accountable for\nquality\nv.    Testers have different biases than those held by the developers\n\nWhich are MOST likely to be considered benefits?",
+      text: "Given the following benefits and drawbacks of the independence of testing:\n\nWhich are MOST likely to be considered benefits?",
       options: [
         "i, iv",
         "ii, v",
@@ -1624,7 +1624,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 137,
-      text: "Given the following descriptions of review activities:\n1. Detected anomalies are deliberated upon, and determinations are reached\nregarding their status, ownership, and any further steps needed\n2. Defects are recorded, and any needed updates are addressed prior to the\nacceptance of the work product\n3. Reviewers employ techniques to come up with suggestions and questions about the\nwork product and to spot anomalies\n4. The objective of the review and its schedule are established to ensure a focused\nand efficient review\n5. Participants are provided with access to the item being reviewed\nWhich of the following is the CORRECT sequence in the review process of the activities that\ncorrespond to the descriptions?",
+      text: "Given the following descriptions of review activities:\n\nWhich of the following is the CORRECT sequence in the review process of the activities that correspond to the descriptions?",
       options: [
         "4–3–5–2–1",
         "4–5–3–1–2",
