@@ -616,202 +616,202 @@ export const answersData: Record<string, AnswerData[]> = {
     {
       questionId: 121,
       correctAnswers: [3],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. Finding and fixing defects in the test object is not a typical test objective as although identifying defects is an objective of testing, fixing defects is not a test activity. b) Is not correct. Maintaining effective communications with developers is not a typical test objective although it is useful in achieving other objectives of testing, such as providing stakeholders with information that enables them to make informed decisions. It is not a primary reason for performing testing. c) Is not correct. Validating that legal requirements have been met is not a typical test objective because validation is concerned with checking whether the system meets users' and other stakeholders' needs in its operational environment. Checking that legal requirements have been met is a form of verification. d) Is correct. Building confidence in the quality of the test object is achieved by executing tests that passed."
     },
     {
       questionId: 122,
       correctAnswers: [2],
-      explanation: "a) Is not correct. The miscalculation of bonuses is a failure (the system produces incorrect output at runtime), not a defect. The defect is the missing exception handling in the code. b) Is not correct. The fine is a business/legal consequence of the failure, not a failure itself in ISTQB terms. A failure is when a component or system does not perform a required function within specified limits. c) Is not correct. Time pressure is a root cause, but 'the programmer working under time pressure' describes a human context — the root cause is the condition (time pressure), not the person. d) Is correct. An error is a human action that produces an incorrect result. The designer, due to tiredness, made an error which is embedded in the design of the user interface — the design does not suitably address disabled users."
+      explanation: "a) Is not correct. The miscalculation of bonuses is a failure by the system, not a defect. b) Is not correct. The system not suitably supporting disabled users is a failure which eventually results in a fine, but the fine itself is not a failure (it appears to be the correct functioning of the regulatory system). c) Is correct. The error is made by the programmer and this mistake is caused by them working under severe time pressure, which is the root cause of the subsequent defect. d) Is not correct. The poor design of the user interface, which does not suitably address disabled users, is a design defect caused by the designer error. Thus the design of the user interface includes a design defect not a designer error."
     },
     {
       questionId: 123,
       correctAnswers: [0],
-      explanation: "a) Is correct. 'Tests wear out' (also known as the pesticide paradox) states that if the same tests are repeated over and over, they will no longer find new defects. To overcome this, test cases should be regularly reviewed and revised, and new and different tests should be written to exercise different parts of the software. Varying test cases while keeping the same test conditions directly addresses this principle. b) The absence-of-defects fallacy is about fixing defects not necessarily producing a useful product. c) Early testing addresses cost efficiency of finding defects early. d) Defects cluster together relates to the distribution of defects, not test variation."
+      explanation: "a) Is correct. The 'tests wear out' principle is concerned with the idea that repeating identical tests on unaltered code is unlikely to uncover novel defects and therefore, modifying tests may be essential. By using test conditions to generate new tests each time, the tests will not be identical and the risk of the tests wearing out is reduced. b) Is not correct. The 'absence-of-defects fallacy' principle is concerned with ensuring that users' needs are fulfilled even if lots of testing is done and no defects are found (i.e., validation is also necessary). The use of test conditions to generate test cases and execute tests does not directly address this concern. c) Is not correct. The 'early testing saves time and money' principle is concerned with fixing defects early on to prevent the occurrence of subsequent defects in derived work products, thereby reducing costs and the likelihood of failures. d) Is not correct. The 'Defects cluster together' principle is concerned with the distribution of defects in a system, which typically follows a Pareto distribution."
     },
     {
       questionId: 124,
       correctAnswers: [1],
-      explanation: "Explanation not found."
+      explanation: "Considering each of the listed test activities and their tasks: A. Test analysis - To identify the features that require testing, the test basis is analyzed and defined as test conditions, which are then prioritized along with related risks. During this test analysis, defects in the test basis are typically uncovered, and the test object's testability may also be assessed. (Task 4). B. Test design - Involves using test conditions to create test cases and other necessary testware, such as test data requirements and test charters for exploratory testing. (Task 1). C. Test implementation - Test procedures, such as manual and automated test scripts, are created from test cases and may be assembled into test suites. Test procedures are prioritized and arranged in a test execution schedule. (Task 3). D. Test completion - Occurs at project milestones, such as release, end of iteration or end of test level. Testware is identified and archived or handed to the appropriate teams for reuse, the test environment is shut down, and the test activities are analyzed for lessons learned and future improvements. (Task 2). a) Is not correct. b) Is correct. The CORRECT match is: 1B, 2D, 3C, 4A. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 125,
       correctAnswers: [0],
-      explanation: "Explanation not found."
+      explanation: "Considering each of the listed testware, and the test activity that produces it: i. The test completion report is an output of test completion. ii. Data held in a database used for inputs and expected results is the test data - output of test implementation. iii. The list of elements needed to build the test environment is the test environment requirements - output of test design. iv. Documented sequences of test cases in execution order are the test procedures - output of test implementation. v. Test cases - output of test design. Test implementation produces the following outputs: test procedures (iv), automated test scripts, test suites, test data (ii), test execution schedule, and test environment elements such as stubs, drivers, simulators, and service virtualizations. a) Is correct. Items ii and iv in the list are produced as a result of test implementation. b) Is not correct. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 126,
       correctAnswers: [3],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. The testing role is primarily responsible for the technical and engineering aspects of testing, such as test analysis, test design, test implementation, and test execution. Evaluating the test basis for defects and the test object for testability are tasks performed as part of test analysis, so it is likely they are tasks performed by the testing role. b) Is not correct. The testing role is primarily responsible for the technical and engineering aspects of testing. Defining the test environment requirements is a task performed as part of test design, so it is likely to be a task performed by the testing role. c) Is not correct. Assessing the testability of a test object is a task performed as part of test analysis, so it is likely to be a task performed by the testing role. d) Is correct. The test management role primarily involves activities related to test planning, test monitoring and test control, and test completion. Thus, creating the test completion report, which is the prime output from the test completion, is likely to be a task performed by the test management role."
     },
     {
       questionId: 127,
       correctAnswers: [0],
-      explanation: "Explanation not found."
+      explanation: "a) Is correct. The whole team approach promotes robust communication and collaboration between the team members. b) Is not correct. While the whole team approach prioritizes collective accountability for quality, each individual team member is still equally accountable for quality. c) Is not correct. The whole team approach is about how the team works together, with the aim of higher quality deliverables, but it does not necessarily result in faster deployment to end users. d) Is not correct. When using the whole team approach, testers work with business representatives to create acceptance tests. There is no suggestion that the approach will reduce collaboration with external business users."
     },
     {
       questionId: 128,
       correctAnswers: [1],
-      explanation: "Explanation not found."
+      explanation: "Considering each of the listed benefits and drawbacks of the independence of testing: i. Ideally, we want close collaboration between testers and developers, which is not increased by isolation. Thus, this is a disadvantage. ii. Testers and developers have varied backgrounds, technical viewpoints, and potential biases, allowing testers to usefully challenge assumptions made by stakeholders during system specification and implementation. Thus, this is an advantage. iii. The main disadvantage of independence of testing is that testers may become isolated from the development team, leading to communication problems, a lack of collaboration, and potentially an adversarial relationship. Thus, this is a disadvantage. iv. One of the disadvantages of independence of testing is that testers may become isolated from the development team, leading to developers feeling less accountable for quality. Thus, this is a disadvantage. v. The primary benefit of independence of testing is that testers are more likely to identify different types of failures and defects compared to developers, due to their varied backgrounds, technical viewpoints, and potential biases. a) Is not correct. b) Is correct. The list entries showing benefits are ii and v. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 129,
       correctAnswers: [0],
-      explanation: "Explanation not found."
+      explanation: "a) Is correct. Each test level has specific and distinct test objectives as a different form of test object (e.g., single component and complete system) is tested at each test level and overlapping test objectives would lead to unnecessary duplication. b) Is not correct. Test analysis and test design for a given test level should start during the corresponding development phase to facilitate early testing. c) Is not correct. Test design for a given test level should start during the corresponding development phase to facilitate early testing, however test design needs to be based on an agreed test basis, not an early draft. d) Is not correct. Quality control applies to all development activities, however the same symmetry does not apply to dynamic testing and static testing."
     },
     {
       questionId: 130,
       correctAnswers: [0],
-      explanation: "Explanation not found."
+      explanation: "a) Is correct. Behavior-Driven Development (BDD) is a well-known example of a test-first approach to development. b) Is not correct. Test Level Driven Development is not a correct example of a test-first approach to development. c) Is not correct. Function-Driven Development is not a correct example of a test-first approach to development. d) Is not correct. Performance-Driven Development is not a correct example of a test-first approach to development."
     },
     {
       questionId: 131,
       correctAnswers: [3],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. DevOps generally increases the visibility of non-functional quality characteristics, such as performance and reliability. b) Is not correct. Automated processes like continuous integration/continuous delivery (CI/CD) used in DevOps facilitate stable test environments. c) Is not correct. Automated processes like CI/CD used in DevOps generally reduce the need for manual testing. d) Is correct. DevOps implementation can pose several risks and challenges, including the need to define and set up the delivery pipeline, introduce and maintain CI/CD tools, and establish and maintain test automation."
     },
     {
       questionId: 132,
       correctAnswers: [1],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. The benefits of retrospectives include team bonding and learning from sharing issues, and better collaboration between developers and testers through reviewing and improving working practices. Calling out individuals will not contribute to this team bonding and collaboration. b) Is correct. During the retrospective, the group discusses what aspects of the project were successful and should be retained, as well as areas that could be improved, and how to do so. c) Is not correct. The benefits of retrospectives are based on increased effectiveness and efficiency through process improvements; they are not an opportunity to let off steam and criticize management and customers. d) Is not correct. Retrospectives are meetings that are typically held at the end of an iteration where team members will focus on discussing quality-related issues that have occurred in the current iteration. They are not used for making plans or technical decisions for the next iteration."
     },
     {
       questionId: 133,
       correctAnswers: [0],
-      explanation: "Explanation not found."
+      explanation: "a) Is correct. Checking that the sort function puts the elements of the list or array in ascending order is evaluating the functional correctness of the sort function, which is part of functional testing. b) Is not correct. Assessing whether the sort function meets its non-functional requirement to complete within one second is part of testing its performance efficiency, which is part of non-functional testing. c) Is not correct. Evaluating the ease with which the sort function can be modified from sorting ascending to sorting descending is testing its modifiability, a form of non-functional maintainability testing. d) Is not correct. Assessing that the sort function still functions correctly when moved from a 32-bit to a 64-bit architecture is testing its adaptability, a form of portability testing."
     },
     {
       questionId: 134,
       correctAnswers: [1],
-      explanation: "a) Is not correct. Developers finding a system difficult to change is a maintainability concern, not a maintenance testing trigger. b) Is correct. The removal of the refund option because it produced incorrect results is a planned modification (deletion) to an operational system. This is a classic trigger for maintenance testing — the team must verify the removal and check for unintended impacts on other functionality. c) Is not correct. An agile team starting development of a new user story describes new feature development, not maintenance of an existing released system. d) Is not correct. Using the language support feature that already exists is normal operation, not a modification that would trigger maintenance testing."
+      explanation: "a) Is not correct. Assuming that testers could check the ease of changing the currency exchange system then it would be done by maintainability testing rather than maintenance testing, so this is not a trigger for maintenance testing. b) Is correct. A system modification (such as a fix or enhancement) is an example of a trigger for maintenance testing. The removal of the refund option of the currency exchange system was a fix that would lead to maintenance testing. c) Is not correct. If the agile team has started developing a user story that adds a new customer loyalty feature, then this will result in them testing the new feature, and then they would perform regression testing. No maintenance testing is required. d) Is not correct. Reconfiguration of the currency exchange system to support both the local language and English currency transactions is not a system modification, a change to the operational environment, or a system retirement, which are the three triggers for maintenance testing."
     },
     {
       questionId: 135,
       correctAnswers: [2],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. Most work products can be examined using some form of static testing, and a contract must be interpretable by humans and so could be reviewed, which is a form of static testing. b) Is not correct. Most work products can be examined using some form of static testing, and a test plan must be interpretable by humans and so could be reviewed. c) Is correct. Most work products can be examined using some form of static testing; however it is not suitable for work products that are too complex for human interpretation and should not be analyzed by tools, and encrypted code is too complex for humans and if it is properly encrypted it will not be analyzable by most tools. d) Is not correct. Most work products can be examined using some form of static testing, and a test charter must be interpretable by humans and so could be reviewed."
     },
     {
       questionId: 136,
       correctAnswers: [2],
-      explanation: "Explanation not found."
+      explanation: "Some defect types that can only be detected by static testing, such as unreachable code, design patterns not implemented as desired and defects in non-executable work products. Some defect types that can be found by both static testing and dynamic testing, such as a programming defect that can be observed by a reviewer in a code review and which causes an observable failure during dynamic testing. And some defect types that can only be detected by dynamic testing, such as performance issues or memory issues that can only be observed when executing the code or system. a) Is not correct. b) Is not correct. c) Is correct. d) Is not correct."
     },
     {
       questionId: 137,
       correctAnswers: [1],
-      explanation: "Explanation not found."
+      explanation: "The five listed descriptions and the corresponding review process activities are: 1. This describes part of the 'communication and analysis' activity. 2. This describes part of the 'fixing and reporting' activity. 3. This describes part of the 'individual review' activity. 4. This describes part of the 'planning' activity. 5. This describes part of the 'review initiation' activity. The generic review process from ISO/IEC 20246 comprises the following activities in this logical order: Planning (4), Review initiation (5), Individual review (3), Communication and analysis (1), Fixing and reporting (2). a) Is not correct. b) Is correct. The correct sequence of activities is: 4 - 5 - 3 - 1 - 2. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 138,
       correctAnswers: [1],
-      explanation: "a) Is not correct. The manager decides on the execution of reviews and provides resources, but does not facilitate the meeting itself. b) Is correct. The moderator (facilitator) is responsible for ensuring review meetings run effectively. This includes ensuring that all participants can voice their opinions freely, managing the meeting dynamics, and keeping the review on track. c) Is not correct. 'Chairperson' is not a defined role in the ISTQB review process. d) Is not correct. The review leader plans and organises the review but the moderator facilitates the actual meeting sessions."
+      explanation: "a) Is not correct. The manager is responsible for deciding what needs to be reviewed and allocating resources, such as staff and time, for the review. b) Is correct. The moderator (or facilitator) is responsible for ensuring that the review meetings run effectively, including managing time, mediating discussions, and creating a safe environment where everyone can voice their opinions freely. c) Is not correct. The chairperson is not a recognized role in reviews. d) Is not correct. The review leader is responsible for overseeing the review process, such as selecting the review team members, scheduling review meetings, and ensuring that the review is completed successfully."
     },
     {
       questionId: 139,
       correctAnswers: [1],
-      explanation: "a) Is not correct. White-box test techniques are based on the internal structure or code of the test object, not on external requirements or specifications. b) Is correct. Black-box test techniques are based on specifications, requirements, and expected behaviour without reference to internal code. REQ 05-017 is a clear business rule specification (input/output behaviour), making black-box techniques such as equivalence partitioning and boundary value analysis the most appropriate for designing test cases. c) Is not correct. Experience-based techniques are used when specifications are missing or incomplete, which is not the case here. d) Is not correct. Risk-based testing is a strategy for prioritising tests, not a technique for designing test cases from requirements."
+      explanation: "a) Is not correct. The document does not refer to the test object's internal structure but specifies the desired behavior of the test object. Therefore, white-box test techniques will not be helpful in designing test cases. b) Is correct. The document is a requirement that specifies the desired behavior of the test object. Therefore, the most suitable test techniques in this case are the black-box test techniques (e.g., Boundary Value Analysis or Decision Table Testing). c) Is not correct. Although experience-based test techniques can be used to design test cases based on this document, black-box test techniques will be more suitable. The document describes a precise business rule and wording like 'exceeds $100' suggests the existence of important equivalence partition boundaries. d) Is not correct. Risk-based test techniques are not a recognized type of test technique."
     },
     {
       questionId: 140,
       correctAnswers: [1, 4],
-      explanation: "The existing test suite already covers 'no discount' (BY=1990, CY=2020, D=30) and 'error message' (BY=2030, CY=2029, D=-1). To achieve full valid equivalence partitioning coverage, the two missing partitions are: student discount (0 ≤ D < 18) and pensioner discount (D ≥ 65). a) BY=2001, CY=2065: D=64 → no discount (already covered). b) Is correct. BY=1900, CY=1965: D=65 → pensioner discount (missing partition). c) BY=1965, CY=1900: D=–65 → error message (already covered). d) BY=2011, CY=2029: D=18 → no discount (already covered). e) Is correct. BY=2000, CY=2000: D=0 → student discount (missing partition). Therefore b and e together complete the valid equivalence partitioning coverage."
+      explanation: "There are two equivalence partitions that are not yet covered, which correspond to 'student discount' and 'pensioner discount'. a) Is not correct. CY - BY = 64, so these inputs correspond to the already covered 'no discount' partition. b) Is correct. CY - BY = 65, so these inputs correspond to a partition that is not yet covered ('pensioner discount'). c) Is not correct. CY - BY = -65, so these inputs correspond to the already covered 'error message' partition. d) Is not correct. CY - BY = 18, so these inputs correspond to the already covered 'no discount' partition. e) Is correct. CY - BY = 0, so these inputs correspond to a partition that is not yet covered ('student discount')."
     },
     {
       questionId: 141,
       correctAnswers: [2],
-      explanation: "Two-value boundary value analysis (BVA) tests the boundary value itself and the value just beyond the boundary. The system has two boundaries: the lower boundary at 0°C and the upper boundary at 2°C. a) –1, 3: tests one value just below each boundary but misses the actual boundary values (0 and 2). b) 0, 2: tests only the boundary values themselves but misses the values just outside each boundary (–1 and 3). c) –1, 0, 2, 3: Is correct. This covers both boundaries (0 and 2) AND the values just outside each boundary (–1 just below 0, and 3 just above 2), giving complete two-value BVA coverage. d) –2, 0, 2, 4: Tests boundary values (0 and 2) but the values –2 and 4 are two steps away from the boundaries, not the immediate adjacent values required for two-value BVA."
+      explanation: "There are three equivalence partitions: {..., -2, -1}, {0, 1, 2}, {3, 4, ...}. For 2-value BVA all the boundary values for all the equivalence partitions must be covered. The boundary values are -1 (for the 'temperature too low' partition), 0, 2 (for the 'temperature OK' partition) and 3 (for the 'temperature too high' partition). a) Is not correct. b) Is not correct. c) Is correct. The correct option is: -1, 0, 2, 3. d) Is not correct."
     },
     {
       questionId: 142,
       correctAnswers: [0],
-      explanation: "Explanation not found."
+      explanation: "Test cases TC1, TC2, TC3 and TC4 cover, respectively, rules R2, R3, R7 and R6 in the decision table. a) Is correct. The conditions '66-year-old', 'unregistered' and 'no experience' match rule R4, which is not covered by the existing test cases, so after adding this test case, the decision table coverage will increase. b) Is not correct. The conditions '55-year-old', 'unregistered' and '2 years of experience' match rule R2, already covered by TC1. So adding this test case will not increase the coverage. c) Is not correct. The conditions '19-year-old', 'registered' and '5 years of experience' match rule R6, already covered by TC4. So adding this test case will not increase the coverage. d) Is not correct. The existing test cases cover only 4 out of 7 columns of the decision table. The coverage can be increased by adding test cases that cover yet uncovered columns, that is, R1, R4 and R5."
     },
     {
       questionId: 143,
       correctAnswers: [1],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. This sequence of five events covers 4 different valid transitions (both 'NotAvailable' events correspond to the same transition between S1 and S3). This test case covers 4 out of 7 valid transitions. b) Is correct. This sequence of five events covers 5 different transitions (the first 'Available' event corresponds to a transition between S1 and S2, and the second 'Available' event corresponds to a transition between S3 and S2, so two different transitions are covered). This test case covers 5 out of 7 valid transitions and achieves the highest valid transitions coverage. c) Is not correct. This sequence of five events covers 3 different transitions (both 'Available' events correspond to the same transition from S1 to S2; both 'ChangeRoom' events correspond to the same transition from S2 to S1). d) Is not correct. This sequence of five events does not represent a feasible test case, because after 'Cancel' the system ends up in the End state and no further valid transitions can be executed."
     },
     {
       questionId: 144,
       correctAnswers: [2],
-      explanation: "a) Is not correct. 100% statement coverage means every statement was executed, but not every possible failure is guaranteed to be found — some defects only manifest under specific conditions that the test cases may not cover. b) Is not correct. 100% statement coverage does not imply 100% branch coverage; a statement can be executed without testing all possible decision outcomes. c) Is correct. By definition, 100% statement coverage means every executable statement in P has been run at least once. Therefore, any statement that contains a defect will also have been executed at least once. d) Is not correct. Although each test case achieves 50% coverage and they overlap, removing one of three test cases does not guarantee the remaining two still cover all statements — there may be statements only covered by the removed test case."
+      explanation: "a) Is not correct. A statement with a defect, when executed, does not have to cause a failure. For example, a statement x := y / z will cause a failure only when z equals 0. b) Is not correct. 100% statement coverage does not guarantee 100% branch coverage. For example, a test case with x=0 for the code IF (x=0) THEN A; ENDIF achieves 100% statement coverage but does not cover the branch from 1 to 3. c) Is correct. 100% statement coverage means that each executable statement was executed at least once. d) Is not correct. The removed test case may provide coverage of some statements that are not covered by either of the other two test cases, in which case the remaining two test cases together will not achieve 100% statement coverage."
     },
     {
       questionId: 145,
       correctAnswers: [0],
-      explanation: "a) Is correct. White-box test techniques derive tests from the internal structure (code) of the test object rather than from the specification. This means test cases can be created even when the specification is vague, outdated or incomplete, because the tester analyses the actual code paths, branches, and statements to be tested. b) Is not correct. While coverage measurement is an advantage of white-box testing, this does not explain why it works when the specification is poor. c) Is not correct. White-box techniques are actually poor at detecting omissions in requirements, since they rely on what is in the code, not what should be there. d) Is not correct. White-box techniques apply to dynamic testing and some static analysis, but this does not explain defect detection when specifications are incomplete."
+      explanation: "a) Is correct. A fundamental strength that all white-box test techniques share is that the entire software implementation is taken into account during testing, which facilitates defect detection even when the software specification is vague, outdated or incomplete. This means white-box testing can find defects such as an extra feature added to the code (either accidentally or deliberately) that is not supposed to be there, which black-box testing cannot detect. b) Is not correct. The fact that the coverage can be precisely defined is not the right reason. The achieved level of coverage would have much more impact than the possibility to measure the coverage. c) Is not correct. If the software does not implement one or more requirements, white-box testing is unlikely to detect the resulting defects of omission. d) Is not correct. While this is true, there is no connection between the capability to be used in both static testing and dynamic testing and the claim that white-box testing facilitates defect detection with poor specifications."
     },
     {
       questionId: 146,
       correctAnswers: [2],
-      explanation: "Explanation not found."
+      explanation: "Error guessing is about anticipating the errors, defects and failures based on the tester's knowledge. a) Is not correct. This is an example of anticipating the developer's error. b) Is not correct. This is an example of anticipating the defect. c) Is correct. This is an example of a potential root cause of a defect, which is neither an error, defect nor failure, and difficult for the tester to anticipate. d) Is not correct. This is an example of anticipating a failure, perhaps based on experience of previous systems in this application domain."
     },
     {
       questionId: 147,
       correctAnswers: [3],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. In exploratory testing, test cases are usually created during the exploratory testing session, alongside test analysis, test implementation and test execution. b) Is not correct. In exploratory testing, tests are simultaneously designed, executed, and evaluated while the tester learns about the test object. c) Is not correct. Exploratory test results depend heavily on the tester's experience. Even if the test results of exploratory testing can be used as a predictor of risk, they are not a good example of reliable defect prediction models that can predict the number of remaining defects. d) Is correct. During exploratory testing, the testers can use any test techniques that they find useful."
     },
     {
       questionId: 148,
       correctAnswers: [3],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. Planning poker can estimate effort for a user story that is already written. It does not help in understanding what should be delivered. b) Is not correct. Reviews are not a collaborative user story writing practice. c) Is not correct. Iteration planning is a project-related practice, used to plan the work, not to understand what needs to be delivered. d) Is correct. Conversation explains how the software will be used and often allows the team to define meaningful acceptance criteria, thus obtaining a shared vision of what should be delivered."
     },
     {
       questionId: 149,
       correctAnswers: [0],
-      explanation: "Explanation not found."
+      explanation: "a) Is correct. This test case is related to acceptance criteria 2 and 3, because we check if we can set price range (acceptance criterion 2) and if the results update dynamically after adjusting the price range filter (acceptance criterion 3). b) Is not correct. This test case is not related to any of the acceptance criteria. It checks if the filter dynamically sets the default minimum and maximum price range, and not that a customer can do it. c) Is not correct. This test case is not related to any of the acceptance criteria. It checks the currency exchange feature, which is not discussed in this user story. d) Is not correct. This test case is not related to any of the acceptance criteria. It checks the application's compatibility with different browsers, which is not discussed in this user story."
     },
     {
       questionId: 150,
       correctAnswers: [1, 3],
-      explanation: "Exit criteria define the conditions that allow testing to stop. a) 'Budget is approved' is an entry criterion (a precondition for testing to begin), not an exit criterion. b) Is correct. 'Budget runs out' is a valid exit criterion — when resources are exhausted, testing must stop regardless of completion. c) 'Test basis is available' is an entry criterion (testing cannot begin without it). d) Is correct. 'Test cases achieved at least 80% statement coverage' is a measurable exit criterion — achieving a defined coverage target is a common and valid condition for concluding testing. e) ISTQB certification of analysts is a project resource concern, not an exit criterion for testing activities."
+      explanation: "a) Is not correct. The approval of the budget is an example of an entry criterion. It would make no sense to approve the budget for some activity that has already been done. b) Is correct. Running out of budget can be viewed as a valid exit criterion. c) Is not correct. Availability of resources is an example of an entry criterion for testing. d) Is correct. Coverage is a measure of thoroughness, so it is a typical exit criterion. e) Is not correct. This is an example of an entry criterion, checked before the project starts."
     },
     {
       questionId: 151,
       correctAnswers: [0],
-      explanation: "Using the three-point estimation formula: E = (O + 4M + P) / 6, where O = optimistic (best case) = 1h, M = most likely = 3h, P = pessimistic (worst case) = 8h. For one test case: E = (1 + 4×3 + 8) / 6 = (1 + 12 + 8) / 6 = 21 / 6 = 3.5 hours. For four test cases: 3.5 × 4 = 14 hours. b) 3.5 hours is the estimate for a single test case, not all four. c) 16 hours would result from simply multiplying the most likely estimate by 4 without applying the three-point formula correctly (4 × 4 = 16). d) 12 hours would result from 4 × 3 (most likely only), ignoring the weighted average formula."
+      explanation: "Using the three-point estimation technique, the final estimate (E) is calculated as: E = (a + 4*m + b) / 6, where a is the most optimistic estimate, m is the most likely estimate, and b is the most pessimistic estimate. a) Is correct. In this case, the estimate for executing a single test case is: E = (1h + 4*3h + 8h) / 6 = 3.5 hours. So, the total time needed for the tester to execute 4 test cases is: 3.5h * 4 = 14 hours. b) Is not correct. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 152,
       correctAnswers: [1],
-      explanation: "Additional coverage prioritization selects the test case that covers the most additional (previously uncovered) requirements in each round. TC1 covers Req1, Req3, Req4, Req7 (4 requirements) → executed first. After TC1, uncovered: Req2, Req5, Req6. TC3 covers Req5 and Req6 (2 new) → executed second. After TC3, uncovered: Req2. TC4 covers Req2 (1 new) → executed third. TC2 covers Req1, Req5, Req7 — all already covered (0 new) → executed last. Therefore TC2 should be executed last, as it provides no additional requirement coverage after the other three test cases have been executed."
+      explanation: "TC1 achieves the highest coverage (4/7 - Req1, Req3, Req4 and Req7), so should be executed first. Req2, Req5 and Req6 are still not covered. The next test case that achieves the highest additional coverage of the remaining requirements is TC3, covering 2 out of these 3 requirements (Req5 and Req6). So, TC3 should be executed as the second one. Now the only requirement still not covered is Req2, which is covered by TC4. Therefore, TC4 should be executed as the third test case. So, the last test case executed will be TC2. a) Is not correct. b) Is correct. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 153,
       correctAnswers: [2],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. Testing quadrants have nothing to do with describing the relationships between test levels. b) Is not correct. Testing quadrants cannot help in assessing any type of coverage. c) Is correct. Testing quadrants allow managers and other stakeholders to understand the relationships between test types, the activities they support (team support or product critique), and the viewpoint they are focused on (business- or technology-facing). d) Is not correct. Testing quadrants is not a psychological model."
     },
     {
       questionId: 154,
       correctAnswers: [1],
-      explanation: "Explanation not found."
+      explanation: "Risk assessment can use a quantitative or qualitative approach, or a mix of them. In the quantitative approach the risk level is calculated as the multiplication of risk likelihood and risk impact. So, Risk level = Risk likelihood * Risk impact. Then, Risk impact = Risk level / Risk likelihood. In our case, Risk impact = $1,000 / 50% = $1,000 / 0.5 = $2,000. a) Is not correct. b) Is correct. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 155,
       correctAnswers: [1, 4],
-      explanation: "Product risks relate to potential quality problems in the software itself (the product). Project risks relate to management, resources, or process issues. a) Scope creep is a project risk — it affects the project schedule and budget, not the product quality directly. b) Is correct. Poor architecture is a product risk — it directly affects the maintainability, performance, and reliability of the software product. c) Cost-cutting is a project risk — it affects project resources and decisions, not a quality characteristic of the product. d) Poor tool support is a project risk — it concerns the development or testing process, not the product itself. e) Is correct. Too long response time is a product risk — it is a performance quality characteristic of the product that could fail to meet user needs."
+      explanation: "a) Is not correct. Scope creep is an example of a project risk related to technical issues. b) Is correct. Poor architecture is an example of a product risk since it refers to a product characteristic. c) Is not correct. Cost-cutting is an example of a project risk, related to organizational issues. d) Is not correct. Poor tool support is an example of a project risk related to technical issues. e) Is correct. Response time that is too long is an example of a product risk since it refers to a product characteristic."
     },
     {
       questionId: 156,
       correctAnswers: [2],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. Tracking test progress and identifying areas that require further attention is an example of supporting the ongoing control of testing. This is one of the purposes of test reports. b) Is not correct. Providing information on the tests executed, their test results, and any defects found is an example of summarizing the test activities performed at a given test level. This is one of the purposes of test reports. c) Is correct. Providing information about defects is the purpose of a defect report, not a test report. d) Is not correct. Providing information on testing planned for the next period is one of the purposes of test reports."
     },
     {
       questionId: 157,
       correctAnswers: [3],
-      explanation: "a) Is not correct. Risk management identifies, analyses and mitigates risks to the project, but it does not enable the reassembly of specific software versions. b) Is not correct. Test monitoring and control tracks test progress and makes corrections, but does not manage software versions or file assemblies. c) Is not correct. The whole team approach encourages collaboration across all team members but is not responsible for version tracking and file assembly. d) Is correct. Configuration management is the discipline that maintains information about the version of work products (including software builds and releases). By recording the version number and the associated set of files, the team was able to reassemble the exact release — this is a fundamental outcome of effective configuration management."
+      explanation: "a) Is not correct. Risk management consists of risk analysis and risk control. Neither of these activities supports the reassembly of the files that made up the release, because these activities deal with risks, not with configuration items. b) Is not correct. Test monitoring is concerned with gathering information about testing to assess test progress and measure whether the exit criteria are satisfied. None of these activities deal with the management of configuration items. c) Is not correct. The whole team approach builds on the tester's skill to work effectively in a team context and to contribute positively to the team goals. So, it focuses on team-related issues, not on configuration items. d) Is correct. Configuration management provides a discipline for identifying, controlling, and tracking work products. Configuration management keeps a record of changed configuration items when a new baseline is created. Using configuration management, it is possible to revert to a previous baseline in order to reproduce previous test results."
     },
     {
       questionId: 158,
       correctAnswers: [0],
-      explanation: "Explanation not found."
+      explanation: "a) Is correct. Adding this information allows the developer to use the same input data, so it is more likely they will be able to reproduce the failure quickly and so identify the defect faster. b) Is not correct. Adding the value of Priority will not help in reproducing the defect itself. c) Is not correct. Although some of this information may be of value, adding the memory dumps and database snapshots after each step will be too much, because most of these artefacts will contain useless information for the developer, and make the defect report less readable. d) Is not correct. The question was about helping the developer to reproduce the failure for a specific environment configuration."
     },
     {
       questionId: 159,
       correctAnswers: [1],
-      explanation: "Explanation not found."
+      explanation: "Considering each of the listed tool categories: i. Collaboration tools - facilitate communication. Communication does not include the facilitation of test execution. ii. DevOps tools - support the DevOps delivery pipeline, workflow tracking, automated build process(es) and CI/CD. The delivery pipeline and CI/CD both include the facilitation of test execution, such as component testing for CI. iii. Management tools - increase the test process efficiency by facilitating management of the SDLC, requirements, tests, defects and configuration. The management of these items does not include the facilitation of test execution. iv. Non-functional testing tools - allow the tester to perform non-functional testing that is difficult or impossible to perform manually. Non-functional testing can include both static testing and dynamic testing, including test execution. v. Test design and implementation tools - facilitate generation of test cases, test data and test procedures. The generation of this testware does not include the facilitation of test execution. a) Is not correct. b) Is correct. Both DevOps tools (ii) and Non-functional testing tools (iv) facilitate test execution. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 160,
       correctAnswers: [2],
-      explanation: "Explanation not found."
+      explanation: "a) Is not correct. The detection of additional high-severity defects would be a benefit of test automation, rather than a risk. b) Is not correct. The provision of measures that are too complicated for humans to derive themselves is normally considered to be a benefit of test automation. c) Is correct. If the test automation is incompatible with the development platform, then it will not be able to integrate them, and, for instance, pass test inputs to the test object and receive test results from the test object. d) Is not correct. Substantially reduced test execution times would normally be considered a benefit that is provided by test automation."
     },
   ]
 };
