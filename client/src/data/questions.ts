@@ -1886,7 +1886,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 158,
-      text: "Consider the following defect report for a Book Lending System.\n\nDefect ID: 001 | Title: Unable to Return a Book                     |\nSeverity: High | Priority:                                          |\nEnvironment: Windows 10, Google Chrome\n\nDescription: When attempting to return a book using the Book Return feature, the system does\nnot register the return and the book remains checked out to the user.\n\nSteps to Reproduce:\nLogin to the Book Lending System as a user who has checked out a book.\nClick on the \"Book Return\" button for the book that has been checked out.\nSystem does not register the return and the book remains checked out.\n\nExpected Result: The book should be returned and no longer appear as checked out to the user.\nActual Result: The book remains checked out to the user and is not registered as returned in the\nsystem.\n\nAttachments: [empty list]\n\nWhich of the following is MOST likely to help the developer reproduce the failure quickly?",
+      text: "Consider the following defect report for a Book Lending System. ||| Which of the following is MOST likely to help the developer reproduce the failure quickly?",
       options: [
         "Adding information about which users and which books the failure affects to the “Description” section",
         "Filling in the missing value for the “Priority” field",
@@ -1894,6 +1894,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "Repeating the same test case for different environments and writing defect reports for each of them separately Select ONE options."
       ],
       category: "Fundamentals of Testing",
+      image: "/src/assets/images/paper-d-q38.png",
       correctAnswers: [0]
     },
     {
