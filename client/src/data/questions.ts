@@ -1812,7 +1812,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     },
     {
       id: 152,
-      text: "The table shows the traceability matrix from test cases to requirements. "X" means that a given test case covers the corresponding requirement. ||| You want to prioritize the test cases following the additional coverage prioritization technique.\n\nYou execute all four test cases.\n\nWhich test case should be executed as the LAST one?",
+      text: "The table shows the traceability matrix from test cases to requirements. \"X\" means that a given test case covers the corresponding requirement. ||| You want to prioritize the test cases following the additional coverage prioritization technique.\n\nYou execute all four test cases.\n\nWhich test case should be executed as the LAST one?",
       options: [
         "TC1",
         "TC2",
