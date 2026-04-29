@@ -434,7 +434,7 @@ export const answersData: Record<string, AnswerData[]> = {
     {
       questionId: 85,
       correctAnswers: [0],
-      explanation: "a) Is correct. The correct match is: 1B, 2D, 3C, 4A b) Is not correct c) Is not correct d) Is not correct March 25, 2025 Certified Tester, Foundation Level"
+      explanation: "Considering each of the listed test activities and their output testware: A. Test analysis - prioritized test conditions (4) (e.g., acceptance criteria), and defect reports for defects identified in the test basis. B. Test design - prioritized test cases, test charters, coverage items (1), test data requirements, and test environment requirements. C. Test implementation - test procedures, automated test scripts, test suites, test data, test execution schedule (3), and test environment elements such as stubs, drivers, simulators, and service virtualizations. D. Test completion - test completion report, documented lessons learned, action items for improvement, and change requests (2) (as product backlog items). a) Is correct. The correct match is: 1B, 2D, 3C, 4A. b) Is not correct. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 86,
