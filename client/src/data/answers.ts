@@ -322,7 +322,7 @@ export const answersData: Record<string, AnswerData[]> = {
     {
       questionId: 63,
       correctAnswers: [2],
-      explanation: "[img:paper-b-q23-exp.png]"
+      explanation: "[img:paper-b-q23-exp.png] a) Is not correct. b) Is not correct. c) Is correct. d) Is not correct."
     },
     {
       questionId: 64,
