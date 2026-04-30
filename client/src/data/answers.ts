@@ -236,7 +236,7 @@ export const answersData: Record<string, AnswerData[]> = {
     },
     {
       questionId: 46,
-      correctAnswers: [0, 4],
+      correctAnswers: [1],
       explanation: "a) Is not correct. Traceability between the mitigated risks and test cases that passed provides little information, because to be mitigated (by testing) the risks would need to have a corresponding test case that passed. To be able to assess residual risk, traceability between all risks and test results needs to be available, so that the risks that do not have a corresponding passing test can be identified as the residual risks. b) Is correct. Traceability between user requirements and test results provides an indication of which user requirements have been tested and so provides a means of measuring project progress (in the context of testing) against business goals. c) Is not correct. It is not clear that test cases that failed provide an indication of tester's skills any more than test cases that passed. It would partly depend on the test objective. Such measurement of testers based on test cases that passed and failed can be counter-productive as it could cause the testers to optimize their testing based on that metric rather than the test objective. d) Is not correct. Traceability between the identified risks and written test conditions provides a means of determining which further test conditions need to be written. Determining which risks are worth testing is part of risk management, and risk mitigation in particular."
     },
     {
