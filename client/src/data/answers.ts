@@ -211,7 +211,7 @@ export const answersData: Record<string, AnswerData[]> = {
   "paper-b": [
     {
       questionId: 41,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "a) Is not correct. It is often possible to use dynamic testing to cause a test object to fail in ways that could never be achieved by the users, such as by using fault injection. However, if the failure can never occur with real end users, then identifying it is not especially valuable as testing is ultimately aimed at improving the work product for the end users. Spending time testing for failures that cannot occur with real users is not an efficient use of a tester's time. b) Is not correct. Static testing in the form of static analysis is used by developers to identify defects in their code earlier than can be achieved through dynamic testing. Note, however, that static testing (and static analysis) is used to detect defects, not failures, which are found by dynamic testing. Thus it is the use of the term 'failures' that makes this an incorrect option. c) Is not correct. Static analysis directly detects defects in code, and this is normally information for the developer, not the customer. d) Is correct. Reviews are a form of static testing that can be applied from the very start of the software development lifecycle and are used to find defects that can be removed before subsequent development activities waste effort on faulty requirements. If the defects are not detected and removed early on, then when the defect is found in derived work products, such as the design and code, the requirements will need to be changed."
     },
     {
@@ -226,47 +226,47 @@ export const answersData: Record<string, AnswerData[]> = {
     },
     {
       questionId: 44,
-      correctAnswers: [0],
+      correctAnswers: [1],
       explanation: "a) Is correct. Test design involves using test conditions to create test cases and other necessary testware, such as test data requirements and test charters for exploratory testing. Test environment requirements are also specified, including the necessary infrastructure and tools. b) Is not correct. Test execution involves executing test cases (as part of test procedures), however it does not directly cover the other testware mentioned in the question, such as test data requirements, test environment requirements and test conditions. c) Is not correct. Test analysis is used to identify the features that require testing. The test basis is analyzed and defined as test conditions, which are then prioritized along with related risks. While this activity involves working with test conditions, it does not cover the other testware mentioned in the question, such as test data requirements, test environment requirements and test cases. d) Is not correct. Test implementation includes the generation of test procedures, such as manual and automated test scripts, which are created from test cases and may be assembled into test suites. While this activity involves explicitly working with test cases, and may use test data requirements and test environment requirements, it does not cover test conditions."
     },
     {
       questionId: 45,
-      correctAnswers: [0],
+      correctAnswers: [1],
       explanation: "a) Is not correct. The organization's marketing team is unlikely to perform much testing, so their average level of experience is not likely to impact how testing is performed for a given test object. b) Is not correct. The level of knowledge of users that a new system is being built for them is unlikely to affect how testing is performed. c) Is correct. The number of years' experience of the members of the performance efficiency testing team will help to determine the capabilities and knowledge (e.g., of different tools and defect types) that the team members will apply when they are testing. d) Is not correct. The organizational structure of the different end users will change between users. So, it may not even be known when the application is being tested, and the end user's organizational structure can thus have little effect on how the testing is performed."
     },
     {
       questionId: 46,
-      correctAnswers: [0],
+      correctAnswers: [0, 4],
       explanation: "a) Is not correct. Traceability between the mitigated risks and test cases that passed provides little information, because to be mitigated (by testing) the risks would need to have a corresponding test case that passed. To be able to assess residual risk, traceability between all risks and test results needs to be available, so that the risks that do not have a corresponding passing test can be identified as the residual risks. b) Is correct. Traceability between user requirements and test results provides an indication of which user requirements have been tested and so provides a means of measuring project progress (in the context of testing) against business goals. c) Is not correct. It is not clear that test cases that failed provide an indication of tester's skills any more than test cases that passed. It would partly depend on the test objective. Such measurement of testers based on test cases that passed and failed can be counter-productive as it could cause the testers to optimize their testing based on that metric rather than the test objective. d) Is not correct. Traceability between the identified risks and written test conditions provides a means of determining which further test conditions need to be written. Determining which risks are worth testing is part of risk management, and risk mitigation in particular."
     },
     {
       questionId: 47,
-      correctAnswers: [0],
+      correctAnswers: [1],
       explanation: "a) Is not correct. Strong communication skills, active listening, and teamwork abilities enable a tester to interact effectively with all stakeholders, however a deep knowledge of a variety of computer games that allowed them to get on well with one developer is not an example of a generic skill useful to testers. b) Is correct. Domain knowledge that can be used to understand and communicate with end-users and business representatives is one of the generic skills required by testers. A tester with experience as a pilot would make them better able to appreciate the acceptance criteria for the helicopter control system. c) Is not correct. Although programming skills could be considered as technical knowledge which can increase efficiency when utilizing some test tools, it is unlikely that these skills would improve their communication with business analysts. d) Is not correct. Although thoroughness, attention to detail, curiosity, and a methodical approach to identifying hard-to-find defects are all useful generic skills for testers, it is doubtful they would be generating test cases prior to starting exploratory testing. This is because one of the main tenets of exploratory testing is that the test cases are generated during the testing, not scripted in advance."
     },
     {
       questionId: 48,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "a) Is not correct. The whole-team approach allows any team member with the requisite skills and knowledge to undertake any task, however that does not mean that team members can take on any role at any time. Typically, they only take on roles in which they are competent, and there is no suggestion that every team member can do every role. b) Is not correct. The whole-team approach applies to how a single team (typically in Agile software development) works; it does not cover how multiple teams are supposed to work on larger projects, and it does not suggest that only one 'whole' team is needed for a complete project. c) Is not correct. The whole-team approach does not expect every team member to be involved in every important decision. For instance, there is no need for the business representative (i.e., the Product Owner) to be involved in every technical decision that does not affect the business outcome. d) Is correct. By leveraging the diverse skill sets of each team member most effectively, the whole-team approach fosters superior team dynamics, promotes robust communication and collaboration, and generates a team synergy that benefits the entire project."
     },
     {
       questionId: 49,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "a) Is not correct. In agile software development, deliverables are produced in each iteration, and the frequent delivery of increments necessitates extensive regression testing. Although some (or all) of this regression testing may be automated, the regression testing (automated or not) cannot be replaced by automation of system tests. b) Is correct. If a sequential development model is used, then early in the software development lifecycle no code is available for execution, and so during this time static testing (e.g., reviews) is performed. Later in the lifecycle, when code is available for execution, dynamic testing is possible. Note, however, that preparation for dynamic testing will often occur early in any software development lifecycle. c) Is not correct. If an iterative development model, like agile software development, is used, then component tests may well be used for regression testing for each iteration. In which case, there is a strong argument for automating these component tests, which will have to be run frequently, and there is unlikely to be a strong argument for developers performing these component tests manually. d) Is not correct. In most incremental development models, deliverables are produced in each increment, requiring both static testing and dynamic testing at all test levels for each increment delivered."
     },
     {
       questionId: 50,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "a) Is not correct. Testers should review work products as soon as drafts are available to enable early testing as part of a shift-left approach. If they waited until the next development phase, then unnecessary development (and test) work could be started on unreviewed, flawed work products. b) Is correct. Testers should review work products as soon as drafts are available to enable early testing as part of a shift-left approach. c) Is not correct. Testers typically review work products that form the test basis as part of test analysis, not before test analysis and test design. d) Is not correct. Testers should review work products as soon as drafts are available to enable early testing as part of the shift-left approach. Waiting until they are published means that any defects that could be found by tester's review will be in the published document."
     },
     {
       questionId: 51,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "a) Is correct. Test-Driven Development (TDD) is a well-known example of a test-first approach to development. b) Is not correct. Coverage-Driven Development is not a correct example of a test-first approach to development. c) Is not correct. Quality-Driven Development is not a correct example of a test-first approach to development. d) Is not correct. Feature-Driven Development is not an example of a test-first approach to development, but is, instead, an agile software development methodology based around delivering features (as opposed to user stories in Scrum)."
     },
     {
       questionId: 52,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "a) Is not correct. DevOps enhances testing in several ways, such as by providing fast feedback on code quality, automated regression testing that minimizes regression risk, and promoting a shift-left approach with high-quality code submission and component tests. This is largely provided through continuous integration, where the developers submit component (unit) tests with their new code, which must pass for the code to be admitted to the build. Therefore, developers do need to complete component testing. b) Is correct. DevOps enhances testing in several ways, such as by providing fast feedback on code quality, automated regression testing that minimizes regression risk, and promoting a shift-left approach with high-quality code submission and component tests. c) Is not correct. DevOps enhances testing in several ways, but testers do not attempt to treat developers and operations equally by spending more time on release testing, although a shift-right approach to testing (testing in production) may well be used. d) Is not correct. Automated processes like continuous integration/continuous delivery (CI/CD) in DevOps facilitate stable test environments and reduce the need for manual testing, however, there is a risk of overlooking the importance of manual testing, especially from a user's perspective."
     },
     {
@@ -276,7 +276,7 @@ export const answersData: Record<string, AnswerData[]> = {
     },
     {
       questionId: 54,
-      correctAnswers: [0],
+      correctAnswers: [1],
       explanation: "a) Is not correct. Regression tests increase in number as the project progresses, as new regression tests are typically required as changes are made to the system. Similarly, the number of confirmation tests also typically increases as the project progresses as new confirmation tests are needed for each fix made to a system. b) Is not correct. It is the other way round. Confirmation tests are created and run when the test object is fixed, and regression tests are (ideally) run whenever the test object is enhanced (changed). c) Is not correct. Confirmation testing verifies that a defect has been fixed correctly and so is concerned with testing changes to the test object. However, regression testing ensures that changes (including changes to the operational environment) do not have negative effects on unchanged software and so does not check that the operational environment remains unchanged. d) Is correct. Regression testing ensures that changes do not have negative effects on unchanged software. Confirmation testing verifies that a defect has been fixed — and so is concerned with changed code."
     },
     {
@@ -286,27 +286,27 @@ export const answersData: Record<string, AnswerData[]> = {
     },
     {
       questionId: 56,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "a) Is not correct. The feedback is from stakeholders (e.g., business representatives and end users), not from developers, so this feedback is not likely to inform managers which developers are more or less productive. b) Is not correct. Early and frequent feedback from stakeholders is not used by project managers to prioritize how they interact with the different stakeholders. c) Is correct. Obtaining feedback from stakeholders early and often in the software development process can be highly beneficial as it facilitates early communication of potential quality issues, can prevent misunderstandings about requirements, and ensures that any changes in stakeholder requirements are understood and implemented sooner. d) Is not correct. Early and frequent feedback can prevent the development of a product that does not meet stakeholder needs, and results in costly rework and missed deadlines, so, ideally there should be no delay. Also, the feedback is from stakeholders (not to them), which includes the end users, so the end users providing feedback will not aid the end users' understanding."
     },
     {
       questionId: 57,
-      correctAnswers: [0],
+      correctAnswers: [1],
       explanation: "Considering each of the listed task descriptions: 1. The quality characteristics to be evaluated and the exit criteria are selected — Planning (C): Defining the review scope, purpose, work product to be reviewed, quality characteristics to be evaluated, areas of focus, exit criteria, supporting information such as standards, effort, and timeframes. 2. Everyone has access to the work product — Review initiation (B): Ensuring all participants have access to the work product and necessary resources, and clarifying their roles and responsibilities. 3. Anomalies are identified in the work product — Individual review (A): Evaluating the work product's quality, identifying and logging anomalies, recommendations, and questions using review techniques like checklist-based reviewing and scenario-based reviewing. 4. Anomalies are analyzed and discussed — Communication and analysis (D): Analyzing and discussing each anomaly, determining its status, ownership, and required actions, and making review decisions, normally in a meeting. a) Is not correct. b) Is not correct. c) Is not correct. d) Is correct. The correct match is: 1C, 2B, 3A, 4D."
     },
     {
       questionId: 58,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "Considering each of the listed roles: 1. Scribe (or Recorder) — responsible for gathering feedback from reviewers and documenting review information, such as decisions made, and any new anomalies identified during the review meeting. (Records review information, such as decisions and new anomalies found during the review meeting — B). 2. Review Leader — responsible for overseeing the review process, such as selecting the review team members, scheduling review meetings, and ensuring that the review is completed successfully. (Takes overall responsibility for the review such as organizing when and where the review will take place — D). 3. Facilitator (or Moderator) — responsible for ensuring that the review meetings run effectively, including managing time, mediating discussions, and creating a safe environment where everyone can voice their opinions freely. (Ensures the effective running of review meetings and the setting up of a safe review environment — A). 4. Manager — responsible for deciding what needs to be reviewed and allocating resources, such as staff and time, for the review. (Decides what is to be reviewed and provides resources, such as staff and time for the review — C). a) Is not correct. b) Is not correct. c) Is correct. The correct match is: 1B, 2D, 3A, 4C. d) Is not correct."
     },
     {
       questionId: 59,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "a) Is not correct. Decision table testing is a black-box test technique, not a white-box test technique — the test cases are not based on the decisions in the source code. In branch testing, the test cases are derived from knowledge of the control flow of the test object. b) Is not correct. Anticipation of potential defects is used in error guessing (an experience-based test technique), not in branch testing (a white-box test technique). In decision table testing, the test cases are derived from the specification that describes the business logic. c) Is not correct. If a test case is based on the knowledge of the control flow of the test object, it is a white-box test technique. Decision table testing is typically based on an analysis of business logic, so it is a black-box test technique. Branch testing is a white-box test technique, where test cases are derived based on the source code structure. d) Is correct. Decision table testing is a black-box test technique, so it is based on an analysis of the specified behavior of the test object without reference to its internal structure. Therefore, the test cases are independent of how the software is implemented. Branch testing is a white-box test technique, so test cases are based on an analysis of the test object's internal structure and processing. As the test cases are dependent on how the software is designed and coded, they can only be created after the design or implementation of the test object."
     },
     {
       questionId: 60,
-      correctAnswers: [0],
+      correctAnswers: [1],
       explanation: "a) Is correct. 19 covers the 'no discount' partition, 20 covers the '50% discount' partition, and 30 covers the '10% discount' partition. These three values cover all three of the valid equivalence partitions. b) Is not correct. 11 and 12 cover the 'no discount' partition, while 20 covers the '50% discount' partition, so covering two of the three valid equivalence partitions. c) Is not correct. 1 covers the 'no discount' partition, while 10 and 50 cover the '10% discount' partition. The '50% discount' partition is not covered, so overall two of the three valid equivalence partitions are covered. d) Is not correct. 29 and 31 cover the 'no discount' partition, while 10 and 30 cover the '10% discount' partition. The '50% discount' partition is not covered, so overall two of the three valid equivalence partitions are covered."
     },
     {
@@ -316,12 +316,12 @@ export const answersData: Record<string, AnswerData[]> = {
     },
     {
       questionId: 62,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "There are five columns in the decision table. Each test case covers one of them. TC1 and TC2 both cover Rule 4. TC3 and TC4 both cover Rule 2. TC5 covers Rule 5. So, these five test cases cover three out of five columns, achieving a coverage of (3/5)*100% = 60%. a) Is not correct. b) Is correct. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 63,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "Let us refer to the transitions with E1, ..., E5 as in the picture. The variable N denotes the number of elements currently stored. Each 'Add' event increases it by 1, and each 'Remove' event decreases it by 1. Notice, that when the 'Add' event occurs while being in the NOT FULL state, the state changes to FULL only if N=2. If N<2, the system stays in the NOT FULL state. If N=0, no 'Remove' action is possible. Similarly, if N=3, no 'Add' action is possible. Test a) can be written as E1, E3, E3, E2, E4 (so covers 4 out of 5 valid transitions, achieving 80% valid transitions coverage). Test b) is infeasible, because after the first three 'Add' actions the system is in the FULL state and there is no valid transition going from FULL triggered by the 'Add' event. After the first three transitions only 60% of valid transitions coverage is achieved. Test c) can be written as E1, E2, E4, E5, E3 (so covers 5 out of 5 valid transitions, achieving 100% valid transitions coverage). Test d) can be written as E1, E2, E4, E5, E4 (so covers 4 out of 5 valid transitions, achieving 80% valid transitions coverage). a) Is not correct. b) Is not correct. c) Is correct. d) Is not correct."
     },
     {
@@ -331,22 +331,22 @@ export const answersData: Record<string, AnswerData[]> = {
     },
     {
       questionId: 65,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "Branch testing is a white-box test technique in which the coverage items are branches. A branch is a transfer of control between two nodes in the control flow graph, which shows the possible sequences in which source code statements are executed in the test object. Each transfer of control can be either unconditional (i.e., straight-line code) or conditional (i.e., a decision outcome). Coverage is measured as the number of branches exercised by the test cases divided by the total number of branches, and is expressed as a percentage. a) Is not correct. A decision outcome is a conditional branch. For branch testing, X counts not only conditional, but also unconditional branches. b) Is not correct. Branch coverage counts not only conditional, but also unconditional branches. c) Is correct. Branch coverage is measured as the number of branches exercised by the test cases divided by the total number of branches, and is expressed as a percentage. d) Is not correct. Both X and Y count only conditional branches and do not take into account the unconditional branches."
     },
     {
       questionId: 66,
-      correctAnswers: [0, 4],
+      correctAnswers: [0],
       explanation: "Exploratory testing is useful when there are few or inadequate specifications or there is significant time pressure on the testing. Exploratory testing is also useful to complement other more formal test techniques. Exploratory testing will be more effective if the tester is experienced, has domain knowledge and has a high degree of essential skills, like analytical skills, curiosity and creativeness. a) Is correct. Exploratory testing is useful when there are few or inadequate specifications or there is significant time pressure on the testing. b) Is not correct. Exploratory testing is not a black-box test technique. c) Is not correct. Exploratory testing is useful when the specifications are poorly written. d) Is not correct. Programming skills have nothing to do with exploratory testing in principle. e) Is correct. Exploratory testing will be more effective if the tester is experienced, has domain knowledge and has a high degree of essential skills, like analytical skills, curiosity and creativeness."
     },
     {
       questionId: 67,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "a) Is not correct. Checklists should contain test conditions to be verified. This is an example of an error, not a test condition; even if the tester was able to deduce some potential test conditions from the examples of errors, this error description is too general. b) Is not correct. Checklists should not contain items that are better suited as exit criteria. This is an example of an exit criterion. c) Is not correct. Checklists should not contain items that are too general. This is a very general item, which practically describes a test objective. d) Is correct. This is an example of a test condition that can be checked by a human."
     },
     {
       questionId: 68,
-      correctAnswers: [0],
+      correctAnswers: [1],
       explanation: "a) Is not correct. The rule-oriented format includes formats like bullet point verification lists or tabulated forms of input-output mappings, explicitly showing the rules to be followed. Given/When/Then is a scenario-oriented format because it describes a scenario to be verified. b) Is correct. This is a Given/When/Then format, which is scenario-oriented. c) Is not correct. There is no 'product-oriented' format of acceptance criteria. d) Is not correct. There is no 'process-oriented' format of acceptance criteria."
     },
     {
@@ -356,17 +356,17 @@ export const answersData: Record<string, AnswerData[]> = {
     },
     {
       questionId: 70,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "a) Is correct. This is something that can (and should) be checked before the code is submitted to version control. b) Is not correct. This is something that can be checked after step (2) is performed, because merge conflict reporting can be done after the code is submitted and merged. c) Is not correct. This fits better as the entry criterion for step (3). d) Is not correct. This fits better as the exit criterion for step (3)."
     },
     {
       questionId: 71,
-      correctAnswers: [0],
+      correctAnswers: [2, 4],
       explanation: "The average development effort is $900,000 and the average test effort is $90,000 (calculated from the four projects). The average test-to-development effort ratio is 1:10 ($90,000 : $900,000), which means that historically, on average, the test effort is 10% of the development effort. So if the development effort is estimated to be $800,000, the estimated test effort is estimated as: 10% * $800,000 = 0.1 * $800,000 = $80,000. a) Is not correct. b) Is correct. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 72,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "The logical dependencies mean that for each product you have to run SEARCH → VIEW → ADD before running ORDER. You can add more products (using the same flow), before you run ORDER. Based on this, TC1 or TC2 must be executed first, otherwise no progress can be made. The first priority should be given to VIEW and ADD product B, as its test cases (TC6, TC4) are assigned with higher priority. So, the first 3 tests to execute are TC2 → TC4 → TC6. Now we need to consider whether to run TC7 and then the entire flow for product A or run the TCs for product A first. If TC7 has lower priority than the other tests, they should be tested first. Therefore, the entire flow should be: TC2 → TC4 → TC6 → TC1 → TC3 → TC5 → TC7. a) Is not correct. TC1 must be executed before TC3. b) Is correct. c) Is not correct. As shown above, TC7 is the last to be executed. d) Is not correct. Product B must be executed before product A."
     },
     {
@@ -381,32 +381,32 @@ export const answersData: Record<string, AnswerData[]> = {
     },
     {
       questionId: 75,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "a) Is correct. Product quality metrics measure quality characteristics. Mean time to failure measures maturity, so it is a product quality metric. b) Is not correct. This is an example of a defect metric, not a product quality metric. c) Is not correct. This is an example of a coverage metric, not a product quality metric. d) Is not correct. This is an example of a defect metric, not a product quality metric."
     },
     {
       questionId: 76,
-      correctAnswers: [0],
+      correctAnswers: [3],
       explanation: "a) Is correct. The client is in a different location and time zone, so it may be difficult to communicate face-to-face. b) Is not correct. Dashboards are usually available to any user at any time, so the difference in time zones will not be as much of a hindrance to communication as verbal, face-to-face communication. c) Is not correct. Although the time difference between Europe and America is several hours, and this may cause some inconvenience, it's certainly not as great as with communicating face-to-face. d) Is not correct. Video conferencing tools are a convenient means of communication. Although communication between Europe and America during working hours usually requires one party to connect in the very early or very late hours, this is not as much of an inconvenience as verbal, face-to-face communication."
     },
     {
       questionId: 77,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "a) Is correct. For a complex configuration item (e.g., a test environment), configuration management (CM) records the items it consists of, their relationships, and versions. b) Is not correct. CM tools do not execute test cases and do not calculate coverage. c) Is not correct. A CM tool is not a licensed management tool. d) Is not correct. CM tools do not generate test data."
     },
     {
       questionId: 78,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "a) Is not correct. While the sentence is true, it does not provide much value for the developer. b) Is correct. From the test results it seems that the system ignores duplicates and sorts the list disregarding the repetitions. This is probably the cause of failures in TC3, TC4, TC5. Such information may help the developer to find the defect and fix it more efficiently. c) Is not correct. The system does not fail in sorting negative numbers. The problem is rather in disregarding duplicates. d) Is not correct. The test cases TC3, TC4 and TC5 fail, but we aren't aware that the test cases have any defects."
     },
     {
       questionId: 79,
-      correctAnswers: [0],
+      correctAnswers: [2],
       explanation: "Considering each of the listed tool categories and their descriptions: A. Static testing tools — support the tester in performing reviews and static analysis (4). B. Tools supporting scalability and deployment standardization — For example, virtual machines, containerization tools (3). C. DevOps tools — support the DevOps delivery pipeline, workflow tracking, automated build process(es), continuous integration/continuous delivery (CI/CD) (1). D. Collaboration tools — facilitate communication (2). a) Is not correct. b) Is not correct. c) Is correct. The correct match is: 1C, 2D, 3B, 4A. d) Is not correct."
     },
     {
       questionId: 80,
-      correctAnswers: [0],
+      correctAnswers: [1],
       explanation: "a) Is correct. Test automation can provide measures that are too complicated for humans to derive, such as white-box testing coverage measures for all but the most trivial code. b) Is not correct. By using test tools, the responsibility for the testing is NOT shared with the tool vendor as the vendor is not involved in the testing, and it is the tester's responsibility. The only possible responsibility that could be assigned to the tool vendor is if the tool fails to work as expected and provides incorrect test results. c) Is not correct. Testers still need to apply critical thinking when analyzing anomalies in the test results to determine their likely cause. d) Is not correct. Neither testers nor tools can generate test cases simply from an analysis of the program code as the code is the implementation and provides no information on the expected results, which will need to come from another part of the test basis, such as the design specification."
     },
   ],
