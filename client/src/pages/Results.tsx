@@ -152,28 +152,39 @@ export default function Results() {
                       <div className="bg-blue-50 border border-blue-100 rounded-md p-4 text-sm text-blue-900">
                         <span className="font-bold block mb-3">Explanation:</span>
                         <div className="space-y-2">
-                          {q.explanation.split(/(?=[a-e]\) )/).map((part, index) => {
-                            const trimmed = part.trim();
-                            if (!trimmed) return null;
-                            const optionMatch = trimmed.match(/^([a-e]\) )(.*)/s);
-                            if (!optionMatch) {
-                              return (
-                                <p key={index} className="text-blue-800 mb-3 leading-relaxed">
-                                  {trimmed}
-                                </p>
-                              );
-                            }
-                            const label = optionMatch[1];
-                            const body = optionMatch[2];
-                            const isCorrect = /is correct\b/i.test(body.slice(0, 40));
-                            const isNotCorrect = /is not correct\b/i.test(body.slice(0, 40));
+                          {(() => {
+                            const imgMatches = [...q.explanation.matchAll(/\[img:([^\]]+)\]/g)];
+                            const cleanedExp = q.explanation.replace(/\[img:[^\]]+\]\s*/g, '');
                             return (
-                              <div key={index} className={`flex gap-2 rounded px-2 py-1.5 ${isCorrect ? "bg-green-100 text-green-900" : isNotCorrect ? "bg-white/60 text-blue-800" : "text-blue-800"}`}>
-                                <span className="font-bold shrink-0">{label}</span>
-                                <span className="leading-relaxed">{body}</span>
-                              </div>
+                              <>
+                                {imgMatches.map((m, i) => (
+                                  <img key={`exp-img-${i}`} src={`/src/assets/images/${m[1]}`} alt="Explanation diagram" className="max-w-full rounded border border-blue-200 mb-2" />
+                                ))}
+                                {cleanedExp.split(/(?=[a-e]\) )/).map((part, index) => {
+                                  const trimmed = part.trim();
+                                  if (!trimmed) return null;
+                                  const optionMatch = trimmed.match(/^([a-e]\) )(.*)/s);
+                                  if (!optionMatch) {
+                                    return (
+                                      <p key={index} className="text-blue-800 mb-3 leading-relaxed">
+                                        {trimmed}
+                                      </p>
+                                    );
+                                  }
+                                  const label = optionMatch[1];
+                                  const body = optionMatch[2];
+                                  const isCorrect = /is correct\b/i.test(body.slice(0, 40));
+                                  const isNotCorrect = /is not correct\b/i.test(body.slice(0, 40));
+                                  return (
+                                    <div key={index} className={`flex gap-2 rounded px-2 py-1.5 ${isCorrect ? "bg-green-100 text-green-900" : isNotCorrect ? "bg-white/60 text-blue-800" : "text-blue-800"}`}>
+                                      <span className="font-bold shrink-0">{label}</span>
+                                      <span className="leading-relaxed">{body}</span>
+                                    </div>
+                                  );
+                                })}
+                              </>
                             );
-                          })}
+                          })()}
                         </div>
                       </div>
                       
