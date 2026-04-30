@@ -524,7 +524,7 @@ export const answersData: Record<string, AnswerData[]> = {
     {
       questionId: 103,
       correctAnswers: [0],
-      explanation: "The following three transitions: 'REQUESTING -> CONFIRMED', 'WAITING LIST -> CONFIRMED', 'WAITING LIST -> END' cannot appear in the same test case, which suggests that at least three test cases are required. All the other transitions can appear in combination with one or more of these three transitions, so we need a minimum of three test cases. In fact, only three sequences are possible: TC1: START (Room request) -> REQUESTING (Available) -> CONFIRMED (Pay) -> END. TC2: START (Room request) -> REQUESTING (Not available) -> WAITING LIST (Available) -> CONFIRMED (Pay) -> END. TC3: START (Room request) -> REQUESTING (Not available) -> WAITING LIST (Cancel) -> END. a) Is correct. b) Is not correct. c) Is not correct. d) Is not correct."
+      explanation: "The following three transitions: \"REQUESTING → CONFIRMED\", \"WAITING LIST → CONFIRMED\", \"WAITING LIST → END\" cannot appear in the same test case, which suggests that at least three test cases are required. All the other transitions can appear in combination with one or more of these three transitions, so we need a minimum of three test cases. In fact, only three sequences are possible: TC1: START (Room request) → REQUESTING (Available) → CONFIRMED (Pay) → END. TC2: START (Room request) → REQUESTING (Not available) → WAITING LIST (Available) → CONFIRMED (Pay) → END. TC3: START (Room request) → REQUESTING (Not available) → WAITING LIST (Cancel) → END. a) Is correct. b) Is not correct. c) Is not correct. d) Is not correct."
     },
     {
       questionId: 104,
