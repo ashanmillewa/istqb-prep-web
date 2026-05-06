@@ -167,7 +167,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 14,
       text: "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three consecutive versions of the software as follows:|||Tests are repeated once you are informed that all defects found in the test run are corrected and a new version of the software is available.\n\nWhich of the above tests are executed as regression tests?",
-      image: "/src/assets/images/paper-a-q14.png",
+      image: "/images/paper-a-q14.png",
       options: [
         "Only 4, 7, 8, 9",
         "Only 5, 7",
@@ -235,7 +235,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 20,
       text: "You are testing a simplified apartment search form which has only two search criteria:|||What is the minimal number of test cases to achieve 100% EP coverage for valid partitions?",
-      image: "/src/assets/images/paper-a-q20.png",
+      image: "/images/paper-a-q20.png",
       options: [
         "3",
         "4",
@@ -247,7 +247,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 21,
       text: "You are testing a system that calculates the final course grade for a given student.|||What is the 2-value boundary value analysis (BVA) coverage for the final result that is achieved with the existing test cases?",
-      image: "/src/assets/images/paper-a-q21.png",
+      image: "/images/paper-a-q21.png",
       options: [
         "50%",
         "60%",
@@ -259,7 +259,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 22,
       text: "Your favorite bicycle daily rental store has just introduced a new Customer Relationship Management system and asked you, one of their most loyal members, to test it.|||Based ONLY on the feature description of the Customer Relationship Management system, which of the above rules describes an impossible situation?",
-      image: "/src/assets/images/paper-a-q22.png",
+      image: "/images/paper-a-q22.png",
       options: [
         "R4",
         "R2",
@@ -271,7 +271,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 23,
       text: "You test a system whose lifecycle is modeled by the state transition diagram shown below. The system starts in the INIT state and ends its operation in the OFF state.|||What is the MINIMAL number of test cases to achieve valid transitions coverage?",
-      image: "/src/assets/images/paper-a-q23.png",
+      image: "/images/paper-a-q23.png",
       options: [
         "4",
         "2",
@@ -338,7 +338,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 29,
       text: "Consider the following user story:|||Which of the following is the BEST example of an ATDD test for this user story?",
-      image: "/src/assets/images/paper-a-q29.png",
+      image: "/images/paper-a-q29.png",
       options: [
         "Test if the editor can save the document after edit the page content",
         "Test if the content owner can log in and make updates to the content",
@@ -373,7 +373,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 32,
       text: "Your team uses the three-point estimation technique to estimate the test effort for a new high-risk feature. The following estimates were made:|||What is the final estimate?",
-      image: "/src/assets/images/paper-a-q32.png",
+      image: "/images/paper-a-q32.png",
       options: [
         "9 person-hours",
         "14 person-hours",
@@ -385,7 +385,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 33,
       text: "You are testing a mobile application that allows users to find a nearby restaurant based on the type of food they want to eat. Consider the following list of test cases, priorities (i.e., a smaller number means a higher priority), and dependencies:|||Which of the following test cases should be executed as the third one?",
-      image: "/src/assets/images/paper-a-q33.png",
+      image: "/images/paper-a-q33.png",
       options: [
         "TC 003",
         "TC 005",
@@ -397,7 +397,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 34,
       text: "Consider the following test categories (1-4) and agile testing quadrants (A-D):|||How do the following test categories map onto the agile testing quadrants?",
-      image: "/src/assets/images/paper-a-q34.png",
+      image: "/images/paper-a-q34.png",
       options: [
         "1C, 2A, 3B, 4D",
         "1D, 2A, 3C, 4B",
@@ -409,7 +409,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 35,
       text: "During a risk analysis the following risk was identified and assessed:|||What measure is proposed to be taken in response to this analyzed risk?",
-      image: "/src/assets/images/paper-a-q35.png",
+      image: "/images/paper-a-q35.png",
       options: [
         "Risk acceptance",
         "Contingency plan",
@@ -443,7 +443,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 38,
       text: "You received the following defect report from the developers stating that the anomaly described in this test report is not reproducible.|||What critical information is MISSING from this test report that would have been useful for the developers?",
-      image: "/src/assets/images/paper-a-q38.png",
+      image: "/images/paper-a-q38.png",
       options: [
         "Expected result and actual result",
         "References and defect status",
@@ -656,7 +656,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 57,
       text: "Given the following task descriptions:|||Which of the following BEST matches the task descriptions and activities?",
-      image: "/src/assets/images/paper-b-q17.png",
+      image: "/images/paper-b-q17.png",
       options: [
         "1B, 2C, 3D, 4A",
         "1B, 2D, 3C, 4A",
@@ -668,7 +668,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 58,
       text: "Given the following roles in reviews:|||Which of the following BEST matches the roles and responsibilities?",
-      image: "/src/assets/images/paper-b-q18.png",
+      image: "/images/paper-b-q18.png",
       options: [
         "1A, 2B, 3D, 4C",
         "1A, 2C, 3B, 4D",
@@ -691,7 +691,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 60,
       text: "",
-      image: "/src/assets/images/paper-b-q20.png",
+      image: "/images/paper-b-q20.png",
       options: [
         "19, 20, 30",
         "11, 12, 20",
@@ -703,7 +703,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 61,
       text: "",
-      image: "/src/assets/images/paper-b-q21.png",
+      image: "/images/paper-b-q21.png",
       options: [
         "4, 5, 13, 14",
         "7, 11",
@@ -715,7 +715,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 62,
       text: "The following decision table contains the rules for determining the risk of atherosclerosis.|||What is the decision table coverage achieved by these test cases?",
-      image: "/src/assets/images/paper-b-q22.png",
+      image: "/images/paper-b-q22.png",
       options: [
         "40%",
         "60%",
@@ -727,7 +727,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 63,
       text: "A storage system can store up to three elements and is modeled by the following state transition diagram. The variable N represents the number of currently stored elements.|||Which of the following test cases, represented as sequences of events, achieves the highest level of valid transitions coverage?",
-      image: "/src/assets/images/paper-b-q23.png",
+      image: "/images/paper-b-q23.png",
       options: [
         "Add, Remove, Add, Add, Add",
         "Add, Add, Add, Add, Remove, Remove",
@@ -784,7 +784,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 68,
       text: "Consider the following acceptance criteria for a user story written from the perspective of an online store owner.|||In what format is this acceptance criteria written?",
-      image: "/src/assets/images/paper-b-q28.png",
+      image: "/images/paper-b-q28.png",
       options: [
         "Rule-oriented",
         "Scenario-oriented",
@@ -796,7 +796,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 69,
       text: "Your team analyzes the following user story in order to define the acceptance criteria:|||Which of the following test cases will NOT be relevant for this user story?",
-      image: "/src/assets/images/paper-b-q29.png",
+      image: "/images/paper-b-q29.png",
       options: [
         "Input: the customer logs into their account on the website and clicks the “see order history” button Expected result: the system shows a list of all the customer’s previous orders, including the date, order number, and total cost",
         "Input: the customer clicks on an order from the order list Expected result: the system displays the individual items purchased, along with their prices and quantities",
@@ -808,7 +808,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 70,
       text: "Your team follows the process that uses the DevOps delivery pipeline. The first three steps of this process are:|||Which of the following is BEST suited to be the entry criterion for step (2) of this pipeline?",
-      image: "/src/assets/images/paper-b-q30.png",
+      image: "/images/paper-b-q30.png",
       options: [
         "Static analysis returns no high severity warnings for the submitted code",
         "System version control reports no conflicts when merging code into the “test” branch",
@@ -820,7 +820,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 71,
       text: "You want to estimate the test effort for the new project using estimation based on ratios. You calculate the test-to-development effort ratio using averaged data for both development effort and test effort from four historical projects similar to the new one. The table shows this historical data.|||The estimated development effort for the new project is $800,000. What is your estimate of the test effort in this project?",
-      image: "/src/assets/images/paper-b-q31.png",
+      image: "/images/paper-b-q31.png",
       options: [
         "$40,000",
         "$80,000",
@@ -832,7 +832,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 72,
       text: "You are testing a web application that allows users to SEARCH for products, VIEW product details, ADD products to a shopping cart, and place an ORDER.|||Which test case should be executed as the fourth one?",
-      image: "/src/assets/images/paper-b-q32.png",
+      image: "/images/paper-b-q32.png",
       options: [
         "TC3",
         "TC1",
@@ -855,7 +855,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 74,
       text: "|||Which of the following BEST matches the risks with the mitigation activities?",
-      image: "/src/assets/images/paper-b-q34.png",
+      image: "/images/paper-b-q34.png",
       options: [
         "1C, 2D, 3A, 4B",
         "1B, 2D, 3A, 4C",
@@ -900,7 +900,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 78,
       text: "You are testing a sort function that gets a set of numbers as input and returns the same set of numbers sorted in ascending order. The log from the test execution looks as follows.|||Which of the following provides the BEST description of the failure that can be used in a defect report?",
-      image: "/src/assets/images/paper-b-q38.png",
+      image: "/images/paper-b-q38.png",
       options: [
         "The system fails to sort several sets of numbers. Reference: TC3, TC4, TC5.",
         "The system seems to disregard duplicates while sorting. Reference: TC3, TC4, TC5.",
@@ -912,7 +912,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 79,
       text: "",
-      image: "/src/assets/images/paper-b-q39.png",
+      image: "/images/paper-b-q39.png",
       options: [
         "1A, 2B, 3C, 4D",
         "1B, 2D, 3C, 4A",
@@ -1522,7 +1522,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "ii, iii, v"
       ],
       category: "Fundamentals of Testing",
-      image: "/src/assets/images/paper-d-q8.png",
+      image: "/images/paper-d-q8.png",
       correctAnswers: [1]
     },
     {
@@ -1631,7 +1631,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "5–4–3–2–1"
       ],
       category: "Fundamentals of Testing",
-      image: "/src/assets/images/paper-d-q17.png",
+      image: "/images/paper-d-q17.png",
       correctAnswers: [1]
     },
     {
@@ -1669,7 +1669,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "BY = 2000, CY = 2000"
       ],
       category: "Fundamentals of Testing",
-      image: "/src/assets/images/paper-d-q20.png",
+      image: "/images/paper-d-q20.png",
       correctAnswers: [1, 4]
     },
     {
@@ -1694,7 +1694,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "No additional test case can increase the already achieved decision table coverage"
       ],
       category: "Fundamentals of Testing",
-      image: "/src/assets/images/paper-d-q22.png",
+      image: "/images/paper-d-q22.png",
       correctAnswers: [0]
     },
     {
@@ -1707,7 +1707,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "NotAvailable, Cancel, ChangeRoom, Available, Pay"
       ],
       category: "Fundamentals of Testing",
-      image: "/src/assets/images/paper-d-q23.png",
+      image: "/images/paper-d-q23.png",
       correctAnswers: [1]
     },
     {
@@ -1780,7 +1780,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "Enter webpage with three different browsers: Edge, Chrome and Opera. In each browser set filter between $90 and $110. Expected result: results include both products A and B and the results layout is the same in all three browsers"
       ],
       category: "Fundamentals of Testing",
-      image: "/src/assets/images/paper-d-q29.png",
+      image: "/images/paper-d-q29.png",
       correctAnswers: [0]
     },
     {
@@ -1806,7 +1806,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "12 hours"
       ],
       category: "Fundamentals of Testing",
-      image: "/src/assets/images/paper-d-q31.png",
+      image: "/images/paper-d-q31.png",
       correctAnswers: [0]
     },
     {
@@ -1819,7 +1819,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "TC4"
       ],
       category: "Fundamentals of Testing",
-      image: "/src/assets/images/paper-d-q32.png",
+      image: "/images/paper-d-q32.png",
       correctAnswers: [1]
     },
     {
@@ -1893,7 +1893,7 @@ export const questionsData: Record<string, QuestionData[]> = {
         "Repeating the same test case for different environments and writing defect reports for each of them separately Select ONE options."
       ],
       category: "Fundamentals of Testing",
-      image: "/src/assets/images/paper-d-q38.png",
+      image: "/images/paper-d-q38.png",
       correctAnswers: [0]
     },
     {
