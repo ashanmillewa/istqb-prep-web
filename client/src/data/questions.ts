@@ -17,7 +17,6 @@ import paperCQ29 from "../assets/images/paper-c-q29.png";
 import paperCQ31 from "../assets/images/paper-c-q31.png";
 import paperCQ32 from "../assets/images/paper-c-q32.png";
 import paperCQ38 from "../assets/images/paper-c-q38.png";
-import paperCQ5 from "../assets/images/paper-c-q5.png";
 
 export const questionsData: Record<string, QuestionData[]> = {
   "paper-a": [
@@ -202,7 +201,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 17,
       text: "The reviews being used in your organization have the following attributes:|||Which of the following review types is MOST likely being used?",
-      image: "../../public/paper-a-q17.png",
+      image: "/paper-a-q17.png",
       options: [
         "Informal review",
         "Walkthrough",
