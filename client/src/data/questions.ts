@@ -201,7 +201,7 @@ export const questionsData: Record<string, QuestionData[]> = {
     {
       id: 17,
       text: "The reviews being used in your organization have the following attributes:|||Which of the following review types is MOST likely being used?",
-      image: "/paper-a-q17.png",
+      image: "/images/paper-a-q17.png",
       options: [
         "Informal review",
         "Walkthrough",

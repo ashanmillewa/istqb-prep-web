@@ -1,4 +1,5 @@
 import { useEffect, useState, type ComponentType } from "react";
+import { Analytics } from "@vercel/analytics/next"
 
 import { modules as discoveredModules } from "./.generated/mockup-components";
 

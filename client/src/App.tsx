@@ -9,7 +9,7 @@ import Exam from "@/pages/Exam";
 import Results from "@/pages/Results";
 import Papers from "@/pages/Papers";
 import AboutISTQB from "@/pages/AboutISTQB";
-
+import { Analytics } from "@vercel/analytics/next"
 function Router() {
   return (
     <Switch>

@@ -14,6 +14,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useLocation } from "wouter";
+import { Analytics } from "@vercel/analytics/next"
 
 import { slides } from "@/slideLoader";
 
