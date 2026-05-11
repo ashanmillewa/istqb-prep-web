@@ -9,7 +9,7 @@ import Exam from "@/pages/Exam";
 import Results from "@/pages/Results";
 import Papers from "@/pages/Papers";
 import AboutISTQB from "@/pages/AboutISTQB";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 import AdBanner from "./AdBanner";
 
 function Router() {
@@ -28,11 +28,10 @@ function Router() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-
       <TooltipProvider>
         <Toaster />
-        
-      <AdBanner />
+
+        <AdBanner />
 
         <Router />
       </TooltipProvider>
