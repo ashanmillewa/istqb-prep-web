@@ -10,6 +10,8 @@ import Results from "@/pages/Results";
 import Papers from "@/pages/Papers";
 import AboutISTQB from "@/pages/AboutISTQB";
 import { Analytics } from "@vercel/analytics/next"
+import AdBanner from "./AdBanner";
+
 function Router() {
   return (
     <Switch>
@@ -26,8 +28,12 @@ function Router() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
+
       <TooltipProvider>
         <Toaster />
+        
+      <AdBanner />
+
         <Router />
       </TooltipProvider>
     </QueryClientProvider>
