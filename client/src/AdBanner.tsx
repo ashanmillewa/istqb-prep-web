@@ -16,7 +16,7 @@ const AdBanner = () => {
   }, []);
 
   return (
-    <div className="w-full max-w-screen-lg mx-auto px-2 sm:px-4 my-6">
+    <div className="w-full max-w-screen-lg mx-auto px-2 sm:px-4 my-6 ">
       <script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1408474758104461"
